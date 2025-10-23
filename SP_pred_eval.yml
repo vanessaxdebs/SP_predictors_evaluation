@@ -1,0 +1,12 @@
+name: SP_pred_eval
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - pandas
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - seaborn
+  - biopython
