@@ -1,5 +1,8 @@
+import os
+
 import requests
 from requests.adapters import HTTPAdapter, Retry
+from config import config
 import json
 import re
 
@@ -56,6 +59,7 @@ def get_negative_dataset(search_url, extractor, output_dir, prefix):
             n_total += 1
             filtered_json.append(entry)
     print(f"Total entries retrieved: {n_total}")
+    os.makedirs(output_dir, exist_ok=True)
     with open(f"{output_dir}/{prefix}.tsv", "w") as ofs:
         for entry in filtered_json:
             fields = extractor(entry)
@@ -131,12 +135,17 @@ def get_positive_dataset(search_url, filter_function, extract_function, output_d
                 n_filtered += 1
                 filtered_json.append(entry)
     print(f"Total entries: {n_total}, Filtered: {n_filtered}")
+    os.makedirs(output_dir, exist_ok=True)
     with open(f"{output_dir}/{prefix}.tsv", "w") as ofs:
         for entry in filtered_json:
             fields = extract_function(entry)
             print(*fields, sep="\t", file=ofs)
 
     write_fasta(filtered_json, f"{output_dir}/{prefix}.fasta")
+
+if __name__ == "__main__":
+    get_negative_dataset(config.config["negative_URL"], extract_function_for_negatives, config.config["data_collection_dir"], config.config["negative_prefix"])
+    get_positive_dataset(config.config["positive_URL"], filter_function, extract_function_for_positives, config.config["data_collection_dir"], config.config["positive_prefix"])
 
 
 
