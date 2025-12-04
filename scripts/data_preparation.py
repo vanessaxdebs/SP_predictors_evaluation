@@ -76,6 +76,11 @@ if __name__ == "__main__":
         sep='\t',
         quoting=csv.QUOTE_NONE,
     )
+    pos_train.to_csv(
+        f"{config.config["data_preparation_dir"]}/{config.config["positive_prefix"]}_train.tsv",
+        sep='\t',
+        quoting=csv.QUOTE_NONE,
+    )
 
     validation_sets = prepare_cross_validation_set(pos_train)
     print(len(validation_sets))
@@ -104,6 +109,11 @@ if __name__ == "__main__":
     neg_train, neg_test = train_test_split(neg_filtered)
     neg_test.to_csv(
         f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_test.tsv",
+        sep='\t',
+        quoting=csv.QUOTE_NONE,
+    )
+    neg_train.to_csv(
+        f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_train.tsv",
         sep='\t',
         quoting=csv.QUOTE_NONE,
     )
