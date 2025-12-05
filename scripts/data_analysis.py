@@ -84,6 +84,59 @@ def dist_by_species_plot(
     plt.savefig(save_path, dpi=1000, format="pdf",bbox_inches="tight",pad_inches=0.2)
     plt.clf()
 
+def seq_len_dist_plot(
+    df,
+    hue,
+    title,
+    labels,
+    save_path,
+):
+    d = sns.kdeplot(data=df, x="Seq_Length", hue=hue, common_norm=False, palette="viridis", fill=True)
+    d.set(title="Sequence Length Distributions", xlabel="Sequence Length", xlim=(0, 5000))
+    sns.move_legend(d, "upper right", title=title, labels=labels)
+    d.set(xlim=(0, 5000))
+    plt.savefig(save_path, dpi=1000, format="pdf",bbox_inches="tight",pad_inches=0.2)
+    plt.clf()
+
+def seq_len_boxplot(
+    df,
+    hue,
+    title,
+    labels,
+    save_path,
+):
+    a = sns.boxplot(data=df, y="Seq_Length", hue=hue, width=0.6, palette="viridis", fill=False)
+    a.set(title="Sequence Length Distributions", ylabel="Sequence Length", ylim=(0, 4000))
+    sns.move_legend(a, "upper right", title=title, labels=labels)
+    plt.savefig(save_path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
+    plt.clf()
+
+def cleavage_len_boxplot(
+    df,
+    hue,
+    title,
+    labels,
+    save_path,
+):
+    a = sns.boxplot(data=df, y="Site", hue=hue, width=0.6, palette="viridis", fill=False)
+    a.set(title="SP Length Distributions", ylabel="SP Length", ylim=(0,70))
+    sns.move_legend(a, "upper right", title=title, labels=labels)
+    plt.savefig(save_path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
+    plt.clf()
+
+def cleavage_len_his(
+    df,
+    hue,
+    title,
+    labels,
+    save_path,
+):
+    a = sns.displot(data=df, x="Site", hue=hue, common_norm=False, stat="probability", palette="viridis", fill=True)
+    a.set(title="SP Length Distributions", xlabel="SP Length", xlim=(0, 70))
+    sns.move_legend(a, "center", bbox_to_anchor=(1, 0.6), title=title, labels=labels)
+    plt.savefig(save_path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
+    plt.clf()
+
 if __name__ == "__main__":
     os.makedirs(config.config["data_analysis_dir"], exist_ok=True)
 
@@ -174,6 +227,100 @@ if __name__ == "__main__":
         "Negative Testing Set",
         f"{config.config["data_analysis_dir"]}/neg_test_species.pdf",
     )
+
+    # Enrich DFs with metadata
+    train_neg_df_sp = train_neg_df.assign(SP=0)
+    train_pos_df_sp = train_pos_df.assign(SP=1)
+    test_neg_df_sp = test_neg_df.assign(SP=0)
+    test_pos_df_sp = test_pos_df.assign(SP=1)
+    train_neg_df_sp_and_t = train_neg_df_sp.assign(Training=1)
+    train_pos_df_sp_ant_t = train_pos_df_sp.assign(Training=1)
+    test_neg_df_sp_and_t = test_neg_df_sp.assign(Training=0)
+    test_pos_df_sp_ant_t = test_pos_df_sp.assign(Training=0)
+
+    train_df_with_md = pd.concat([train_neg_df_sp_and_t, train_pos_df_sp_ant_t], ignore_index=True, sort=False)
+    test_df_with_md = pd.concat([test_neg_df_sp_and_t, test_pos_df_sp_ant_t], ignore_index=True, sort=False)
+    df_with_md = pd.concat([train_df_with_md, test_df_with_md], ignore_index=True, sort=False)
+    positive_df_with_md = pd.concat([train_pos_df_sp_ant_t, test_pos_df_sp_ant_t], ignore_index=True, sort=False)
+    negative_df_with_md = pd.concat([train_neg_df_sp_and_t, test_neg_df_sp_and_t], ignore_index=True, sort=False)
+
+    # Subsequent analysis
+    seq_len_dist_plot(
+        df_with_md,
+        "SP",
+        "Class",
+        ["Negative", "Positive"],
+        f"{config.config["data_analysis_dir"]}/seq_len_dist_by_class.pdf"
+    )
+    seq_len_dist_plot(
+        df_with_md,
+        "Training",
+        "Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_dist_by_dataset.pdf"
+    )
+    seq_len_dist_plot(
+        positive_df_with_md,
+        "Training",
+        "Positive Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_dist_by_dataset_pos.pdf"
+    )
+    seq_len_dist_plot(
+        negative_df_with_md,
+        "Training",
+        "Negative Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_dist_by_dataset_neg.pdf"
+    )
+
+    seq_len_boxplot(
+        df_with_md,
+        "SP",
+        "Class",
+        ["Negative", "Positive"],
+        f"{config.config["data_analysis_dir"]}/seq_len_boxplot_by_class.pdf"
+    )
+    seq_len_boxplot(
+        df_with_md,
+        "Training",
+        "Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_boxplot_by_dataset.pdf"
+    )
+    seq_len_boxplot(
+        positive_df_with_md,
+        "Training",
+        "Positive Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_boxplot_by_dataset_pos.pdf"
+    )
+    seq_len_boxplot(
+        negative_df_with_md,
+        "Training",
+        "Negative Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/seq_len_boxplot_by_dataset_neg.pdf"
+    )
+
+    cleavage_len_boxplot(
+        positive_df_with_md,
+        "Training",
+        "Positive Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/cleavage_len_boxplot_by_dataset_pos.pdf"
+    )
+
+    cleavage_len_his(
+        positive_df_with_md,
+        "Training",
+        "Positive Datasets",
+        ["Training", "Testing"],
+        f"{config.config["data_analysis_dir"]}/cleavage_len_hist_by_dataset_pos.pdf"
+    )
+
+    # TODO Comparative amino-acid composition of SPs against some background distribution
+
 
 
 
