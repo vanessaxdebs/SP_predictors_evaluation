@@ -40,18 +40,24 @@ def filter_redundant_seq(
 
     return filtered
 
-def train_test_split(df):
+def train_test_validation_split(df):
     i = int(len(df) * 0.8)
 
     train = df.iloc[0:i]
     test = df.iloc[i:]
+    test = test.assign(Group = 0)
+    train = train.assign(Group=100)
 
-    return train, test
+    l = [0, int(len(train) * 0.2), int(len(train) * 0.4), int(len(train) * 0.6), int(len(train) * 0.8), len(train)]
 
-def prepare_cross_validation_set(df):
-    l = [0, int(len(df)*0.2), int(len(df)*0.4), int(len(df)*0.6), int(len(df)*0.8), len(df)]
+    validation_sets = []
+    for n in range(len(l) - 1):
+        validation_sets.append(train.iloc[l[n]:l[n + 1]])
+        train["Group"][l[n]:l[n + 1]] = n + 1
 
-    return [df.iloc[l[n]:l[n + 1]] for n in range(len(l) - 1)]
+
+    return train, test, validation_sets
+
 
 if __name__ == "__main__":
     os.makedirs(config.config["data_preparation_dir"], exist_ok=True)
@@ -70,7 +76,7 @@ if __name__ == "__main__":
         f"{config.config["data_preparation_dir"]}/{config.config["positive_prefix"]}_filtered.tsv"
     )
 
-    pos_train, pos_test = train_test_split(pos_filtered)
+    pos_train, pos_test, validation_sets = train_test_validation_split(pos_filtered)
     pos_test.to_csv(
         f"{config.config["data_preparation_dir"]}/{config.config["positive_prefix"]}_test.tsv",
         sep='\t',
@@ -82,8 +88,6 @@ if __name__ == "__main__":
         quoting=csv.QUOTE_NONE,
     )
 
-    validation_sets = prepare_cross_validation_set(pos_train)
-    print(len(validation_sets))
     for i in range(len(validation_sets)):
         print(validation_sets[i])
         validation_sets[i].to_csv(
@@ -106,7 +110,7 @@ if __name__ == "__main__":
         f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_filtered.tsv"
     )
 
-    neg_train, neg_test = train_test_split(neg_filtered)
+    neg_train, neg_test, validation_sets = train_test_validation_split(neg_filtered)
     neg_test.to_csv(
         f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_test.tsv",
         sep='\t',
@@ -118,7 +122,6 @@ if __name__ == "__main__":
         quoting=csv.QUOTE_NONE,
     )
 
-    validation_sets = prepare_cross_validation_set(neg_train)
     for i in range(len(validation_sets)):
         validation_sets[i].to_csv(
             f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_train_{i}.tsv",
