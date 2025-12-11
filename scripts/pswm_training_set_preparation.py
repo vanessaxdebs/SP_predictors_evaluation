@@ -120,3 +120,28 @@ if __name__ == "__main__":
     train_df = add_fragment_columns(train_df)
     train_df = train_df.drop('Sequence', axis=1)
     train_df.to_csv(f"{config.config['pswm_dir']}/train.tsv", sep='\t')
+
+
+    # Prepare also testing df here
+    test_pos_df = pd.read_csv(
+        f"{config.config["data_preparation_dir"]}/{config.config["positive_prefix"]}_test.tsv",
+        sep='\t',
+    )
+    test_neg_df = pd.read_csv(
+        f"{config.config["data_preparation_dir"]}/{config.config["negative_prefix"]}_test.tsv",
+        sep='\t',
+    )
+
+    test_pos_df = test_pos_df.assign(Class=1)
+    test_neg_df = test_neg_df.assign(Class=0)
+
+    test_df = pd.concat([test_pos_df, test_neg_df], ignore_index=True, sort=False)
+
+    # Keep only useful features
+    test_df = test_df[["ID", "Seq_Length", "Site", "Class", "Group"]]
+
+    # Enrich df with fasta
+    test_df = add_sequences_from_fasta(test_df, f"{config.config['pswm_dir']}/train.fasta")
+    test_df = add_fragment_columns(test_df)
+    test_df = test_df.drop('Sequence', axis=1)
+    test_df.to_csv(f"{config.config['pswm_dir']}/test.tsv", sep='\t')
