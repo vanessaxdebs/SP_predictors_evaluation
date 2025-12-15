@@ -1,3 +1,4 @@
+import csv
 import os
 
 import pandas as pd
@@ -323,7 +324,7 @@ def plot_confusion_matrix(y_true, y_pred, title):
     for spine in ax.spines.values():
         spine.set_visible(False)
     plt.tight_layout()
-    plt.savefig(f"{config.config['svm_dir']}/confusion_matrix_{title}.png", dpi=1000, format="png", bbox_inches="tight", pad_inches=0.2)
+    plt.savefig(f"{config.config['svm_dir']}/confusion_matrix_{title}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
     plt.clf()
 
 
@@ -392,7 +393,7 @@ if __name__ == "__main__":
         plt.xlabel("Gini importance")
         plt.ylabel("Features")
         plt.title(f"RandomForest Gini Importances (Top 20 - Round {i + 1})")
-        plt.savefig(f"{config.config['svm_dir']}/Top_Features_round{i + 1}.png", dpi=1000, format="png", bbox_inches="tight", pad_inches=0.2)
+        plt.savefig(f"{config.config['svm_dir']}/Top_Features_round{i + 1}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
         plt.clf()
         plt.figure()
         colors = plt.cm.viridis(np.linspace(0, 1, 20))
@@ -433,7 +434,7 @@ if __name__ == "__main__":
         plt.ylabel("Validation MCC score (SVM)")
         plt.title(f"MCC vs. Number of Selected Features (Validation set - Round {i + 1})")
         plt.grid(True)
-        plt.savefig(f"{config.config['svm_dir']}/MCC_vs_Val_round{i + 1}.png", dpi=1000, format="png", bbox_inches="tight", pad_inches=0.2)
+        plt.savefig(f"{config.config['svm_dir']}/MCC_vs_Val_round{i + 1}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
         plt.clf()
         plt.figure()
         plt.plot(ks, mcc_curve, marker="o", color=plt.cm.viridis(0.9))
@@ -485,6 +486,15 @@ if __name__ == "__main__":
 
     # Testing the model
     predmcc_test = final_model.predict(Xte)
+    predictions_df = pd.DataFrame({'Prediction': predmcc_test})
+    test_df_w_prediction = pd.concat([test_df, predictions_df], axis=1)
+    test_df_w_prediction.to_csv(
+        f"{config.config['svm_dir']}/test_df_w_prediction.tsv",
+        sep='\t',
+        quoting=csv.QUOTE_NONE,
+        index=False,
+    )
+
     test_mcc = matthews_corrcoef(Y_test, predmcc_test)
 
     plot_confusion_matrix(Y_test, predmcc_test, "Selected features")
