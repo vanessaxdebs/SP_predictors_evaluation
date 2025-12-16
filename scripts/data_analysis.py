@@ -137,7 +137,7 @@ def cleavage_len_his(
     plt.savefig(save_path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
     plt.clf()
 
-if __name__ == "__main__":
+def main():
     os.makedirs(config.config["data_analysis_dir"], exist_ok=True)
 
     # Set up theme
@@ -321,8 +321,7 @@ if __name__ == "__main__":
 
     # TODO Comparative amino-acid composition of SPs against some background distribution
 
-
-
-
+if __name__ == "__main__":
+    main()
 
 

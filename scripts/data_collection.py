@@ -143,9 +143,13 @@ def get_positive_dataset(search_url, filter_function, extract_function, output_d
 
     write_fasta(filtered_json, f"{output_dir}/{prefix}.fasta")
 
-if __name__ == "__main__":
-    get_negative_dataset(config.config["negative_URL"], extract_function_for_negatives, config.config["data_collection_dir"], config.config["negative_prefix"])
-    get_positive_dataset(config.config["positive_URL"], filter_function, extract_function_for_positives, config.config["data_collection_dir"], config.config["positive_prefix"])
+def main():
+    get_negative_dataset(config.config["negative_URL"], extract_function_for_negatives,
+                         config.config["data_collection_dir"], config.config["negative_prefix"])
+    get_positive_dataset(config.config["positive_URL"], filter_function, extract_function_for_positives,
+                         config.config["data_collection_dir"], config.config["positive_prefix"])
 
+if __name__ == "__main__":
+    main()
 
 

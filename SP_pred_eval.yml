@@ -13,3 +13,4 @@ dependencies:
   - biopython
   - mmseqs2
   - mafft
+  - logomaker

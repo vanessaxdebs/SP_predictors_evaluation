@@ -128,7 +128,7 @@ def precision(TP, FP, FN, TN):
 def f1_score(prec, rec):
     return 2 * (prec * rec) / (prec + rec) if (prec + rec) != 0 else 0.0
 
-if __name__ == "__main__":
+def main():
     # Set theme in Seaborn
     sns.set_theme()
     mpl.rcParams['font.family'] = ['Liberation Serif', 'serif']
@@ -326,4 +326,6 @@ if __name__ == "__main__":
                 pad_inches=0.2)
     plt.clf()
 
+if __name__ == "__main__":
+    main()
 

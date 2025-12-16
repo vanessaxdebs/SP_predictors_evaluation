@@ -328,7 +328,7 @@ def plot_confusion_matrix(y_true, y_pred, title):
     plt.clf()
 
 
-if __name__ == "__main__":
+def main():
     os.makedirs(config.config["svm_dir"], exist_ok=True)
 
     # Download dataframes
@@ -515,3 +515,6 @@ if __name__ == "__main__":
                               recall_score(Y_test, baseline_predtest), accuracy_score(Y_test, baseline_predtest),
                               f1_score(Y_test, baseline_predtest)]
     pickle.dump(metrics_mcc_all_values, gzip.open(f"{config.config['svm_dir']}/all_metrics_mcc.pkl.gz", "w"))
+
+if __name__ == "__main__":
+    main()

@@ -86,7 +86,7 @@ def add_fragment_columns(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-if __name__ == "__main__":
+def main():
     os.makedirs(config.config["pswm_dir"], exist_ok=True)
 
     train_pos_df = pd.read_csv(
@@ -145,3 +145,6 @@ if __name__ == "__main__":
     test_df = add_fragment_columns(test_df)
     test_df = test_df.drop('Sequence', axis=1)
     test_df.to_csv(f"{config.config['pswm_dir']}/test.tsv", sep='\t')
+
+if __name__ == "__main__":
+    main()

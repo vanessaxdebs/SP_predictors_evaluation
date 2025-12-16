@@ -59,7 +59,7 @@ def train_test_validation_split(df):
     return train, test, validation_sets
 
 
-if __name__ == "__main__":
+def main():
     os.makedirs(config.config["data_preparation_dir"], exist_ok=True)
 
     exec_mmseqs_easy_cluster(
@@ -128,3 +128,6 @@ if __name__ == "__main__":
             sep='\t',
             quoting=csv.QUOTE_NONE,
         )
+
+if __name__ == "__main__":
+    main()
