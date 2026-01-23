@@ -1,0 +1,176 @@
+	ID	Taxa	Kingdom	Seq_Length	Site	Group
+1776	Q18184	Caenorhabditis elegans	Metazoa	89	23	5
+1778	Q60GF7	Rattus norvegicus	Metazoa	252	22	5
+1779	Q63191	Rattus norvegicus	Metazoa	1216	21	5
+1781	A0A2I6QB00	Trametes coccinea (strain BRFM310)	Fungi	418	18	5
+1783	A1IKL2	Anisakis simplex	Metazoa	152	18	5
+1784	B0CPC6	Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686)	Fungi	206	21	5
+1786	B4FZ87	Zea mays	Viridiplantae	396	31	5
+1791	C0HL38	Trichonephila clavata	Metazoa	60	19	5
+1793	C4NZN9	Hyas araneus	Metazoa	131	16	5
+1796	G1CWH6	Clitoria ternatea	Viridiplantae	122	25	5
+1797	O42720	Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)	Fungi	110	32	5
+1798	O59896	Pycnoporus cinnabarinus	Fungi	518	21	5
+1799	O76942	Encephalitozoon cuniculi (strain GB-M1)	Fungi	395	22	5
+1800	O93233	Gloydius brevicaudus siniticus	Metazoa	331	23	5
+1819	P13917	Glycine max	Viridiplantae	427	24	5
+1824	P18657	Macaca fascicularis	Metazoa	83	26	5
+1829	P23577	Chlamydomonas reinhardtii	Viridiplantae	317	31	5
+1830	P24052	Gallus gallus	Metazoa	142	21	5
+1831	P24817	Momordica charantia	Viridiplantae	286	23	5
+1838	P42705	Canis lupus familiaris	Metazoa	352	23	5
+1843	P80022	Solanum lycopersicum	Viridiplantae	230	25	5
+1845	P82358	Acanthoscurria gomesiana	Metazoa	84	23	5
+1846	P83313	Opistophthalmus carinatus	Metazoa	82	22	5
+1848	P86407	Mesobuthus eupeus	Metazoa	75	22	5
+1849	P86798	Cupiennius salei	Metazoa	140	19	5
+1850	Q00017	Aspergillus aculeatus	Fungi	250	17	5
+1852	Q12546	Aspergillus ficuum	Fungi	614	22	5
+1858	Q5MJP5	Anuroctonus phaiodactylus	Metazoa	90	18	5
+1860	Q6TPK4	Actinidia deliciosa	Viridiplantae	116	26	5
+1862	Q76FB0	Cyanidium caldarium	other	155	20	5
+1864	Q7ZZN8	Naja atra	Metazoa	238	19	5
+1868	Q8NK90	Aspergillus kawachii (strain NBRC 4308)	Fungi	628	25	5
+1870	Q92154	Coturnix japonica	Metazoa	620	17	5
+1871	Q95NY5	Anopheles stephensi	Metazoa	315	18	5
+1875	Q9U943	Locusta migratoria	Metazoa	3380	21	5
+1886	C5P3X6	Coccidioides posadasii (strain C735)	Fungi	276	18	5
+1892	G4V4F9	Cupiennius salei	Metazoa	97	19	5
+1897	O96910	Aplysia californica	Metazoa	76	18	5
+1907	P04119	Sus scrofa	Metazoa	178	18	5
+1916	P0C8E8	Rhipicephalus sanguineus	Metazoa	86	20	5
+1919	P0DUT6	Doratifera vulnerans	Metazoa	66	20	5
+1920	P10257	Oncorhynchus keta	Metazoa	137	24	5
+1926	P20013	Trametes versicolor	Fungi	372	26	5
+1935	P33559	Aspergillus kawachii (strain NBRC 4308)	Fungi	327	25	5
+1937	P48747	Oryctolagus cuniculus	Metazoa	557	21	5
+1938	P48816	Bombyx mori	Metazoa	137	18	5
+1942	P56829	Ovis aries	Metazoa	195	23	5
+1943	P59938	Olivierus martensii	Metazoa	57	21	5
+1944	P67876	Aspergillus restrictus	Fungi	176	27	5
+1947	P80060	Locusta migratoria	Metazoa	92	19	5
+1955	P85213	Galleria mellonella	Metazoa	72	29	5
+1956	P85261	Actinidia chinensis var. chinensis	Viridiplantae	213	24	5
+1959	Q07081	Aquarana catesbeiana	Metazoa	464	16	5
+1960	Q17058	Apis mellifera	Metazoa	567	17	5
+1965	Q39649	Cucurbita maxima	Viridiplantae	141	22	5
+1967	Q41161	Robinia pseudoacacia	Viridiplantae	285	31	5
+1970	Q6GU94	Centruroides limpidus	Metazoa	56	24	5
+1973	Q7M4T0	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	480	17	5
+1975	Q84V39	Olea europaea	Viridiplantae	123	21	5
+1976	Q875I9	Aspergillus fumigatus	Fungi	238	17	5
+1979	Q8I817	Aplysia californica	Metazoa	88	19	5
+1989	A0A0F7YZQ7	Conus victoriae	Metazoa	100	24	5
+1991	A0A2I8B346	Paralithodes camtschaticus	Metazoa	62	23	5
+1993	A1BQQ5	Conus marmoreus	Metazoa	289	24	5
+1996	B0XRV0	Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10)	Fungi	721	18	5
+2003	D7UQ40	Alternaria solani	Fungi	515	25	5
+2004	F1AWB0	Vaejovis mexicanus	Metazoa	82	22	5
+2006	F7J1C8	Flammulina velutipes	Fungi	249	21	5
+2008	G8YYA5	Androctonus amoreuxi	Metazoa	74	22	5
+2011	I6S7G5	Scolopendra mutilans	Metazoa	84	16	5
+2014	O02826	Sus scrofa	Metazoa	111	20	5
+2015	O11780	Sus scrofa	Metazoa	683	23	5
+2016	O62680	Sus scrofa	Metazoa	123	25	5
+2018	P01070	Glycine max	Viridiplantae	216	24	5
+2021	P02659	Gallus gallus	Metazoa	106	24	5
+2024	P05790	Bombyx mori	Metazoa	5263	21	5
+2025	P06205	Limulus polyphemus	Metazoa	242	24	5
+2027	P09791	Trypanosoma brucei brucei	other	129	27	5
+2029	P10762	Locusta migratoria	Metazoa	179	16	5
+2031	P10968	Triticum aestivum	Viridiplantae	212	26	5
+2038	P18709	Xenopus laevis	Metazoa	1807	15	5
+2040	P19400	Ascaris suum	Metazoa	169	20	5
+2042	P20740	Gallus gallus	Metazoa	1473	36	5
+2043	P22864	Aspergillus niger	Fungi	373	19	5
+2044	P23502	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	other	1286	15	5
+2052	P38660	Mesocricetus auratus	Metazoa	439	19	5
+2054	P42660	Aedes aegypti	Metazoa	471	19	5
+2062	P80356	Avena sativa	Viridiplantae	220	19	5
+2067	Q00870	Fusarium solani subsp. phaseoli	Fungi	350	19	5
+2069	Q01682	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	463	18	5
+2070	Q06K77	Phlebotomus duboscqi	Metazoa	336	21	5
+2071	Q27085	Tachypleus tridentatus	Metazoa	418	24	5
+2077	Q5B833	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	Fungi	387	24	5
+2078	Q5BGU9	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	Fungi	366	18	5
+2084	Q76CE8	Typhula ishikariensis	Fungi	243	20	5
+2085	Q7M418	Oligobrachia mashikoi	Metazoa	163	16	5
+2086	Q7Q7R8	Anopheles gambiae	Metazoa	89	29	5
+2090	Q7YZS9	Conus virgo	Metazoa	67	26	5
+2097	Q8T0W8	Gastrophysa atrocyanea	Metazoa	65	24	5
+2098	Q8T0Y7	Aplysia californica	Metazoa	141	26	5
+2101	Q8W257	Ptilota filicina	other	500	21	5
+2103	Q945U0	Phytophthora sojae	other	257	28	5
+2104	Q95P08	Scutigera coleoptrata	Metazoa	656	18	5
+2107	Q9TRM8	Canis lupus familiaris	Metazoa	177	25	5
+2109	Q9U8X3	Tachypleus tridentatus	Metazoa	67	23	5
+2113	A0A0R4I951	Scolopendra dehaani	Metazoa	70	23	5
+2114	A1X159	Perna viridis	Metazoa	431	20	5
+2115	B0FHH8	Manduca sexta	Metazoa	151	18	5
+2117	B1P0S1	Pseudopleuronectes americanus	Metazoa	218	23	5
+2118	B2KNH9	Dendrobium findlayanum	Viridiplantae	167	24	5
+2122	E9NX73	Fagopyrum tataricum	Viridiplantae	149	22	5
+2125	O18994	Sus scrofa	Metazoa	219	21	5
+2126	O46167	Eratigena agrestis	Metazoa	68	17	5
+2129	P00651	Aspergillus oryzae (strain ATCC 42149 / RIB 40)	Fungi	130	26	5
+2133	P01221	Cyprinus carpio	Metazoa	118	23	5
+2139	P04552	Haliotis rufescens	Metazoa	154	18	5
+2146	P0DQP8	Cerrophidion godmani	Metazoa	166	19	5
+2155	P15196	Oryctolagus cuniculus	Metazoa	398	31	5
+2159	P18417	Catharanthus roseus	Viridiplantae	352	31	5
+2160	P20757	Ovis aries	Metazoa	476	24	5
+2164	P29007	Bombina orientalis	Metazoa	155	31	5
+2165	P30438	Felis catus	Metazoa	92	22	5
+2167	P32358	Bombyx mori	Metazoa	579	15	5
+2169	P42578	Lymnaea stagnalis	Metazoa	239	18	5
+2177	P62520	Chilobrachys guangxiensis	Metazoa	63	27	5
+2183	P84843	Hybomitra bimaculata	Metazoa	76	20	5
+2188	Q08127	Anguilla anguilla	Metazoa	147	20	5
+2189	Q16927	Aedes aegypti	Metazoa	2169	46	5
+2194	Q3C258	Actinia equina	Metazoa	70	20	5
+2197	Q42502	Solanum tuberosum	Viridiplantae	386	23	5
+2200	Q5B428	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	Fungi	244	23	5
+2202	Q5WPZ4	Lutzomyia longipalpis	Metazoa	115	22	5
+2205	Q75WF2	Acanthaster planci	Metazoa	358	26	5
+2206	Q76CA2	Monoplex parthenopeus	Metazoa	275	23	5
+2207	Q76FP5	Hypocrea rufa	Fungi	479	20	5
+2209	Q7SCE9	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	Fungi	385	18	5
+2210	Q86SC0	Oryctes rhinoceros	Metazoa	66	26	5
+2213	Q8I7X1	Porcellio scaber	Metazoa	145	21	5
+2214	Q8I948	Acanthoscurria gomesiana	Metazoa	156	23	5
+2217	Q90W22	Aquarana catesbeiana	Metazoa	114	24	5
+2219	Q94637	Oscheius tipulae	Metazoa	1648	15	5
+2220	Q95NK7	Olivierus martensii	Metazoa	54	23	5
+2223	Q99013	Pseudopleuronectes americanus	Metazoa	82	23	5
+2228	Q9U8D1	Olivierus martensii	Metazoa	56	28	5
+2233	B2NHN2	Talaromyces funiculosus	Fungi	339	20	5
+2237	E0XKJ9	Tabanus yao	Metazoa	349	25	5
+2240	L8BRS3	Morus alba	Viridiplantae	209	18	5
+2246	P01038	Gallus gallus	Metazoa	139	23	5
+2247	P01068	Ananas comosus	Viridiplantae	246	19	5
+2256	P02809	Macaca fascicularis	Metazoa	61	19	5
+2262	P0DUS6	Doratifera vulnerans	Metazoa	60	24	5
+2271	P19594	Glycine max	Viridiplantae	158	21	5
+2273	P20656	Saponaria officinalis	Viridiplantae	299	24	5
+2274	P21828	Bombyx mori	Metazoa	262	16	5
+2280	P24792	Cucurbita maxima	Viridiplantae	579	30	5
+2281	P25033	Hyalophora cecropia	Metazoa	413	19	5
+2282	P26732	Bombyx mori	Metazoa	92	19	5
+2286	P34746	Oreochromis mossambicus	Metazoa	204	17	5
+2291	P69241	Raphanus sativus	Viridiplantae	80	29	5
+2294	P79073	Hypocrea jecorina	Fungi	86	15	5
+2300	Q05091	Pyrus communis	Viridiplantae	330	24	5
+2301	Q1HAY7	Holotrichia diomphalia	Metazoa	317	23	5
+2304	Q29422	Ovis aries	Metazoa	333	20	5
+2305	Q2U4L7	Aspergillus oryzae (strain ATCC 42149 / RIB 40)	Fungi	690	20	5
+2309	Q5EPH2	Rhipicephalus bursa	Metazoa	97	22	5
+2310	Q5KQS1	Gloydius blomhoffii	Metazoa	324	19	5
+2317	Q6RG02	Penaeus merguiensis	Metazoa	2586	18	5
+2325	Q8T9R8	Stomoxys calcitrans	Metazoa	67	24	5
+2328	Q94733	Rhodnius prolixus	Metazoa	202	23	5
+2330	Q95NJ8	Olivierus martensii	Metazoa	55	23	5
+2331	Q9GU69	Lymnaea stagnalis	Metazoa	64	21	5
+2334	Q9MYV1	Canis lupus familiaris	Metazoa	128	25	5
+2341	O95157	Homo sapiens	Metazoa	252	22	5
+2343	Q6UWI4	Homo sapiens	Metazoa	295	33	5
+2346	Q6UWJ8	Homo sapiens	Metazoa	174	29	5

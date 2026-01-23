@@ -1,0 +1,1430 @@
+	ID	Taxa	Kingdom	Seq_Length	Site	Group
+10785	F8VPN2	Mus musculus	Metazoa	2785	False	4
+10787	O08573	Mus musculus	Metazoa	353	False	4
+10788	O08759	Mus musculus	Metazoa	870	False	4
+10790	O13563	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	156	False	4
+10793	O22287	Arabidopsis thaliana	Viridiplantae	361	False	4
+10794	O35260	Rattus norvegicus	Metazoa	514	False	4
+10800	O88873	Rattus norvegicus	Metazoa	529	False	4
+10810	P07270	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	312	False	4
+10812	P08153	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	709	False	4
+10813	P08458	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	490	False	4
+10819	P10664	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	362	False	4
+10820	P13405	Mus musculus	Metazoa	921	False	4
+10826	P17442	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1178	False	4
+10828	P19889	Drosophila melanogaster	Metazoa	317	False	4
+10829	P22293	Drosophila melanogaster	Metazoa	1325	False	4
+10832	P23503	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	491	False	4
+10834	P24309	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	405	False	4
+10836	P25043	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	261	False	4
+10839	P29461	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	750	False	4
+10841	P31111	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	875	False	4
+10844	P32480	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	875	False	4
+10849	P34078	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	463	False	4
+10853	P34706	Caenorhabditis elegans	Metazoa	2150	False	4
+10856	P36068	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	246	False	4
+10859	P36421	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	394	False	4
+10860	P38628	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	557	False	4
+10862	P38768	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	344	False	4
+10863	P38827	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1080	False	4
+10864	P39979	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	161	False	4
+10865	P40161	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	455	False	4
+10868	P40547	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	921	False	4
+10870	P41812	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	875	False	4
+10871	P41920	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	201	False	4
+10876	P42731	Arabidopsis thaliana	Viridiplantae	629	False	4
+10880	P43583	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	2143	False	4
+10882	P47050	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	842	False	4
+10883	P47112	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	604	False	4
+10884	P47164	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	639	False	4
+10887	P48612	Drosophila melanogaster	Metazoa	395	False	4
+10890	P53076	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	958	False	4
+10891	P53127	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1403	False	4
+10893	P53255	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	507	False	4
+10894	P53899	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	274	False	4
+10897	P57742	Arabidopsis thaliana	Viridiplantae	151	False	4
+10899	P61961	Mus musculus	Metazoa	85	False	4
+10904	P70278	Mus musculus	Metazoa	393	False	4
+10908	P83510	Mus musculus	Metazoa	1323	False	4
+10910	P97480	Mus musculus	Metazoa	510	False	4
+10914	Q02085	Mus musculus	Metazoa	264	False	4
+10915	Q03330	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	439	False	4
+10917	Q04178	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	221	False	4
+10919	Q04868	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	273	False	4
+10924	Q07532	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	353	False	4
+10930	Q12068	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	342	False	4
+10933	Q12510	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	522	False	4
+10935	Q17390	Caenorhabditis elegans	Metazoa	791	False	4
+10937	Q17604	Caenorhabditis elegans	Metazoa	161	False	4
+10938	Q21691	Caenorhabditis elegans	Metazoa	1057	False	4
+10940	Q23973	Drosophila melanogaster	Metazoa	217	False	4
+10941	Q24134	Drosophila melanogaster	Metazoa	578	False	4
+10942	Q24167	Drosophila melanogaster	Metazoa	1507	False	4
+10943	Q38HM4	Mus musculus	Metazoa	350	False	4
+10944	Q3EBC8	Arabidopsis thaliana	Viridiplantae	1388	False	4
+10948	Q3URU2	Mus musculus	Metazoa	1571	False	4
+10950	Q5HZJ0	Mus musculus	Metazoa	1373	False	4
+10951	Q5ND04	Mus musculus	Metazoa	624	False	4
+10952	Q5SQP1	Mus musculus	Metazoa	306	False	4
+10953	Q60674	Mus musculus	Metazoa	576	False	4
+10958	Q61818	Mus musculus	Metazoa	1889	False	4
+10960	Q62264	Mus musculus	Metazoa	150	False	4
+10966	Q64378	Mus musculus	Metazoa	456	False	4
+10968	Q69ZF8	Mus musculus	Metazoa	577	False	4
+10969	Q6GYP7	Mus musculus	Metazoa	2035	False	4
+10970	Q6IUP1	Mus musculus	Metazoa	357	False	4
+10972	Q6WKZ7	Mus musculus	Metazoa	506	False	4
+10976	Q7JXA8	Drosophila melanogaster	Metazoa	418	False	4
+10978	Q7TN79	Mus musculus	Metazoa	314	False	4
+10979	Q80ZG2	Rattus norvegicus	Metazoa	678	False	4
+10980	Q84JU6	Arabidopsis thaliana	Viridiplantae	927	False	4
+10982	Q84LM4	Arabidopsis thaliana	Viridiplantae	764	False	4
+10984	Q8BGW0	Mus musculus	Metazoa	636	False	4
+10988	Q8BZT9	Mus musculus	Metazoa	430	False	4
+10992	Q8GZA8	Arabidopsis thaliana	Viridiplantae	237	False	4
+10997	Q8RXD3	Arabidopsis thaliana	Viridiplantae	310	False	4
+10998	Q8RY95	Arabidopsis thaliana	Viridiplantae	1035	False	4
+11000	Q8VYB9	Arabidopsis thaliana	Viridiplantae	840	False	4
+11002	Q91YI6	Mus musculus	Metazoa	484	False	4
+11006	Q93560	Caenorhabditis elegans	Metazoa	817	False	4
+11007	Q93VB2	Arabidopsis thaliana	Viridiplantae	425	False	4
+11009	Q93VT9	Arabidopsis thaliana	Viridiplantae	220	False	4
+11010	Q94230	Caenorhabditis elegans	Metazoa	226	False	4
+11011	Q94527	Drosophila melanogaster	Metazoa	971	False	4
+11014	Q94JU3	Arabidopsis thaliana	Viridiplantae	260	False	4
+11015	Q95Y80	Caenorhabditis elegans	Metazoa	853	False	4
+11016	Q95ZL9	Caenorhabditis elegans	Metazoa	152	False	4
+11017	Q96330	Arabidopsis thaliana	Viridiplantae	336	False	4
+11018	Q99315	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1547	False	4
+11019	Q99K82	Mus musculus	Metazoa	555	False	4
+11021	Q99PQ2	Mus musculus	Metazoa	467	False	4
+11022	Q9ASP6	Arabidopsis thaliana	Viridiplantae	495	False	4
+11023	Q9C5J9	Arabidopsis thaliana	Viridiplantae	342	False	4
+11027	Q9CPR8	Mus musculus	Metazoa	279	False	4
+11029	Q9CX80	Mus musculus	Metazoa	190	False	4
+11031	Q9D915	Mus musculus	Metazoa	106	False	4
+11038	Q9FNC7	Arabidopsis thaliana	Viridiplantae	717	False	4
+11047	Q9NH52	Caenorhabditis elegans	Metazoa	898	False	4
+11052	Q9SIU2	Arabidopsis thaliana	Viridiplantae	848	False	4
+11053	Q9SLJ2	Arabidopsis thaliana	Viridiplantae	98	False	4
+11054	Q9SQR3	Arabidopsis thaliana	Viridiplantae	267	False	4
+11055	Q9SU30	Arabidopsis thaliana	Viridiplantae	413	False	4
+11059	Q9U3D6	Caenorhabditis elegans	Metazoa	964	False	4
+11060	Q9V727	Drosophila melanogaster	Metazoa	1669	False	4
+11061	Q9VAB8	Drosophila melanogaster	Metazoa	457	False	4
+11063	Q9VTE2	Drosophila melanogaster	Metazoa	962	False	4
+11064	Q9VVR2	Drosophila melanogaster	Metazoa	539	False	4
+11065	Q9VW15	Drosophila melanogaster	Metazoa	2226	False	4
+11066	Q9VWC6	Drosophila melanogaster	Metazoa	1596	False	4
+11067	Q9W123	Drosophila melanogaster	Metazoa	495	False	4
+11069	Q9XIM0	Arabidopsis thaliana	Viridiplantae	203	False	4
+11071	Q9Z0P7	Mus musculus	Metazoa	484	False	4
+11074	Q9Z206	Mus musculus	Metazoa	595	False	4
+11075	Q6ZPR5	Mus musculus	Metazoa	823	False	4
+11078	O82230	Arabidopsis thaliana	Viridiplantae	182	False	4
+11079	O82392	Arabidopsis thaliana	Viridiplantae	644	False	4
+11082	P49599	Arabidopsis thaliana	Viridiplantae	388	False	4
+11084	Q84VZ1	Arabidopsis thaliana	Viridiplantae	245	False	4
+11085	Q8RWV0	Arabidopsis thaliana	Viridiplantae	741	False	4
+11088	Q94B35	Arabidopsis thaliana	Viridiplantae	466	False	4
+11089	Q9AT00	Arabidopsis thaliana	Viridiplantae	345	False	4
+11091	Q9LU39	Arabidopsis thaliana	Viridiplantae	317	False	4
+11094	Q9STG9	Arabidopsis thaliana	Viridiplantae	561	False	4
+11095	Q9XI84	Arabidopsis thaliana	Viridiplantae	482	False	4
+11097	F4I1T7	Arabidopsis thaliana	Viridiplantae	1819	False	4
+11098	O82289	Arabidopsis thaliana	Viridiplantae	568	False	4
+11100	Q8RWH9	Arabidopsis thaliana	Viridiplantae	513	False	4
+11102	Q9FFK6	Arabidopsis thaliana	Viridiplantae	810	False	4
+11105	Q5BJM8	Rattus norvegicus	Metazoa	378	True	4
+11107	Q9R0X4	Mus musculus	Metazoa	439	False	4
+11109	Q42512	Arabidopsis thaliana	Viridiplantae	139	False	4
+11111	Q8W593	Arabidopsis thaliana	Viridiplantae	350	False	4
+11113	Q94AR8	Arabidopsis thaliana	Viridiplantae	509	False	4
+11122	F4IV66	Arabidopsis thaliana	Viridiplantae	1001	False	4
+11124	Q94AX2	Arabidopsis thaliana	Viridiplantae	277	False	4
+11129	Q9LSA9	Arabidopsis thaliana	Viridiplantae	339	False	4
+11130	Q9SA14	Arabidopsis thaliana	Viridiplantae	404	False	4
+11131	Q9SA52	Arabidopsis thaliana	Viridiplantae	378	False	4
+11132	Q9SCL7	Arabidopsis thaliana	Viridiplantae	347	False	4
+11134	Q9SX29	Arabidopsis thaliana	Viridiplantae	159	False	4
+11142	F4HVG8	Arabidopsis thaliana	Viridiplantae	611	False	4
+11143	O22265	Arabidopsis thaliana	Viridiplantae	373	False	4
+11144	O49562	Arabidopsis thaliana	Viridiplantae	403	False	4
+11145	Q42529	Arabidopsis thaliana	Viridiplantae	312	False	4
+11146	Q5M755	Arabidopsis thaliana	Viridiplantae	273	False	4
+11148	Q8GTR4	Arabidopsis thaliana	Viridiplantae	965	False	4
+11150	Q8W4E7	Arabidopsis thaliana	Viridiplantae	598	False	4
+11159	P32266	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	881	True	4
+11161	Q01852	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	431	False	4
+11162	Q9JKF1	Mus musculus	Metazoa	1657	False	4
+11163	O08715	Mus musculus	Metazoa	857	False	4
+11166	O45717	Caenorhabditis elegans	Metazoa	293	False	4
+11167	O70302	Mus musculus	Metazoa	217	False	4
+11172	Q9V3H8	Drosophila melanogaster	Metazoa	133	False	4
+11173	O35095	Rattus norvegicus	Metazoa	729	False	4
+11174	Q93654	Caenorhabditis elegans	Metazoa	245	False	4
+11180	Q6NZQ4	Mus musculus	Metazoa	1056	False	4
+11181	O35465	Mus musculus	Metazoa	402	False	4
+11183	Q91Z67	Mus musculus	Metazoa	1071	False	4
+11187	P22138	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1203	False	4
+11189	P25368	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	297	False	4
+11192	P28007	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	205	False	4
+11193	P34241	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1764	False	4
+11196	P38996	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	802	False	4
+11198	P40055	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	554	False	4
+11199	P43586	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	204	False	4
+11201	P53254	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1237	False	4
+11202	P53335	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	271	False	4
+11203	P53914	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1056	False	4
+11204	Q02354	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	440	False	4
+11205	Q02931	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	896	False	4
+11206	Q03280	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	3268	False	4
+11207	Q03973	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	246	False	4
+11208	Q04177	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	643	False	4
+11210	Q06506	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	573	False	4
+11212	Q4KMM3	Mus musculus	Metazoa	866	False	4
+11213	Q53KK6	Oryza sativa subsp. japonica	Viridiplantae	784	False	4
+11216	Q80VY9	Mus musculus	Metazoa	698	False	4
+11217	Q8CFC7	Mus musculus	Metazoa	668	False	4
+11218	Q8H0U4	Arabidopsis thaliana	Viridiplantae	891	False	4
+11219	Q8RX78	Arabidopsis thaliana	Viridiplantae	684	False	4
+11221	Q8W234	Arabidopsis thaliana	Viridiplantae	877	False	4
+11223	Q9LVD0	Arabidopsis thaliana	Viridiplantae	289	False	4
+11226	Q9SJQ6	Arabidopsis thaliana	Viridiplantae	1393	False	4
+11229	F4I9G2	Arabidopsis thaliana	Viridiplantae	426	False	4
+11230	O22832	Arabidopsis thaliana	Viridiplantae	401	False	4
+11231	P37107	Arabidopsis thaliana	Viridiplantae	564	False	4
+11232	Q8W4I6	Arabidopsis thaliana	Viridiplantae	660	False	4
+11235	Q9SGS4	Arabidopsis thaliana	Viridiplantae	302	False	4
+11237	Q9ZW85	Arabidopsis thaliana	Viridiplantae	251	False	4
+11239	P00396	Bos taurus	Metazoa	514	True	4
+11242	P04039	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	78	True	4
+11243	P07213	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	617	True	4
+11245	P08525	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	94	True	4
+11249	Q63707	Rattus norvegicus	Metazoa	395	True	4
+11250	Q75Q41	Rattus norvegicus	Metazoa	142	True	4
+11253	Q8BWT5	Mus musculus	Metazoa	1523	False	4
+11254	Q8R1I1	Mus musculus	Metazoa	64	True	4
+11256	Q94515	Drosophila melanogaster	Metazoa	321	True	4
+11258	Q9LHE5	Arabidopsis thaliana	Viridiplantae	309	False	4
+11260	O88339	Rattus norvegicus	Metazoa	575	False	4
+11262	Q18425	Caenorhabditis elegans	Metazoa	473	False	4
+11264	P46674	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1301	False	4
+11265	Q6K881	Oryza sativa subsp. japonica	Viridiplantae	565	False	4
+11268	P58281	Mus musculus	Metazoa	960	False	4
+11271	O18412	Drosophila melanogaster	Metazoa	718	False	4
+11279	P33448	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	61	True	4
+11280	P36112	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	540	True	4
+11282	P46972	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	177	False	4
+11283	P53083	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	459	False	4
+11284	P53507	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	60	True	4
+11286	Q12275	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1648	False	4
+11288	Q14DK4	Mus musculus	Metazoa	801	False	4
+11290	Q96VH5	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	97	True	4
+11295	Q9VKD7	Drosophila melanogaster	Metazoa	253	True	4
+11296	Q8GUT5	Arabidopsis thaliana	Viridiplantae	288	False	4
+11297	F4JYC8	Arabidopsis thaliana	Viridiplantae	1706	False	4
+11298	Q0WUY1	Arabidopsis thaliana	Viridiplantae	534	False	4
+11306	P38351	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	445	False	4
+11307	P38439	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	464	False	4
+11308	P38779	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	376	False	4
+11309	P38882	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	575	False	4
+11311	P40992	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	514	False	4
+11312	P46669	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	326	False	4
+11313	P47077	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	666	False	4
+11314	P53251	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	210	False	4
+11316	P53941	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	290	False	4
+11317	Q02892	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	647	False	4
+11319	Q04305	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	513	False	4
+11321	Q05498	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	189	False	4
+11322	Q08235	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	291	False	4
+11323	Q08492	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	214	False	4
+11329	Q5XF07	Arabidopsis thaliana	Viridiplantae	364	False	4
+11330	Q6Q547	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	58	False	4
+11331	Q84JE8	Arabidopsis thaliana	Viridiplantae	694	False	4
+11333	Q8CD15	Mus musculus	Metazoa	465	False	4
+11336	Q8IRH5	Drosophila melanogaster	Metazoa	733	False	4
+11338	Q8RWL4	Arabidopsis thaliana	Viridiplantae	349	False	4
+11343	Q9LUJ3	Arabidopsis thaliana	Viridiplantae	163	False	4
+11346	Q9S736	Arabidopsis thaliana	Viridiplantae	566	False	4
+11351	Q5EGY4	Rattus norvegicus	Metazoa	198	False	4
+11357	P08067	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	215	True	4
+11358	P18239	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	318	True	4
+11364	P53259	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	346	False	4
+11370	Q9CPX8	Mus musculus	Metazoa	56	True	4
+11374	A0A2P1GIW3	Catharanthus roseus	Viridiplantae	320	False	4
+11376	P33075	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	220	False	4
+11378	A0A0B5LB55	Penicillium brevicompactum	Fungi	433	False	4
+11380	Q93WX6	Arabidopsis thaliana	Viridiplantae	463	False	4
+11383	W8JWV8	Catharanthus roseus	Viridiplantae	378	False	4
+11390	P03911	Mus musculus	Metazoa	459	True	4
+11391	P07255	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	59	True	4
+11393	P25573	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	417	True	4
+11394	P32897	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	222	True	4
+11395	P37299	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	77	True	4
+11396	P40515	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	155	False	4
+11399	Q06493	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	454	False	4
+11403	A2RVJ8	Arabidopsis thaliana	Viridiplantae	434	False	4
+11406	P07703	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	335	False	4
+11407	P10964	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1664	False	4
+11409	P25582	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	841	False	4
+11411	P32529	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	125	False	4
+11413	P36160	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	344	False	4
+11416	P50106	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	137	False	4
+11417	P53064	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	558	False	4
+11418	P53276	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	713	False	4
+11419	P53734	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	629	False	4
+11420	P53743	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	316	False	4
+11424	Q06697	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	393	False	4
+11425	Q08096	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	367	False	4
+11428	Q5D869	Arabidopsis thaliana	Viridiplantae	1976	False	4
+11429	Q67Y93	Arabidopsis thaliana	Viridiplantae	191	False	4
+11432	Q8BTQ0	Mus musculus	Metazoa	241	False	4
+11433	Q8CCE9	Mus musculus	Metazoa	783	False	4
+11437	Q8L3P4	Arabidopsis thaliana	Viridiplantae	654	False	4
+11438	Q8RWN0	Arabidopsis thaliana	Viridiplantae	571	False	4
+11440	Q91YE5	Mus musculus	Metazoa	1889	False	4
+11441	Q99207	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	810	False	4
+11443	Q9D8F1	Mus musculus	Metazoa	300	False	4
+11446	Q9FVQ1	Arabidopsis thaliana	Viridiplantae	557	False	4
+11447	Q9FVW4	Arabidopsis thaliana	Viridiplantae	482	False	4
+11451	Q9V7P1	Drosophila melanogaster	Metazoa	506	False	4
+11452	Q9W088	Drosophila melanogaster	Metazoa	431	False	4
+11457	P10676	Drosophila melanogaster	Metazoa	1501	False	4
+11461	P10174	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	60	True	4
+11463	P17665	Mus musculus	Metazoa	63	True	4
+11464	P18409	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	493	False	4
+11467	P32799	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	129	True	4
+11469	P38297	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	855	False	4
+11470	P39952	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	402	False	4
+11472	P50110	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	327	True	4
+11475	P97521	Rattus norvegicus	Metazoa	301	True	4
+11477	Q07914	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	168	True	4
+11478	Q9CQ69	Mus musculus	Metazoa	82	True	4
+11480	Q9ZNT1	Arabidopsis thaliana	Viridiplantae	281	True	4
+11481	B1AXD8	Mus musculus	Metazoa	201	False	4
+11482	D3YXK1	Mus musculus	Metazoa	519	False	4
+11485	Q8I8U7	Drosophila melanogaster	Metazoa	3790	False	4
+11489	Q9VWF2	Drosophila melanogaster	Metazoa	2006	False	4
+11494	D4A1X2	Rattus norvegicus	Metazoa	885	False	4
+11498	P25586	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	316	False	4
+11504	P38205	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	684	False	4
+11505	P38911	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	411	False	4
+11506	P38961	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	392	False	4
+11507	P39985	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1022	False	4
+11508	P40362	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	594	False	4
+11509	P40498	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	721	False	4
+11510	P53317	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	196	False	4
+11511	P53972	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	490	False	4
+11513	P89105	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1077	False	4
+11515	Q06631	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	534	False	4
+11516	Q06679	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	776	False	4
+11517	Q07896	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	663	False	4
+11521	Q12220	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	943	False	4
+11523	Q12457	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	570	False	4
+11526	Q6PAC3	Mus musculus	Metazoa	445	False	4
+11527	Q84MZ4	Arabidopsis thaliana	Viridiplantae	412	False	4
+11530	Q8VYZ5	Arabidopsis thaliana	Viridiplantae	900	False	4
+11533	Q9C9M6	Arabidopsis thaliana	Viridiplantae	196	False	4
+11534	Q9D945	Mus musculus	Metazoa	130	False	4
+11536	Q9SUA1	Arabidopsis thaliana	Viridiplantae	763	False	4
+11543	F4JW79	Arabidopsis thaliana	Viridiplantae	1493	False	4
+11544	O00841	Dictyostelium discoideum	other	802	False	4
+11545	O13329	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	566	False	4
+11550	P32899	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	183	False	4
+11551	P34247	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	250	False	4
+11552	P39990	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	126	False	4
+11554	P46962	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	323	False	4
+11555	P47006	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	233	False	4
+11556	P47035	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1189	False	4
+11558	P70279	Mus musculus	Metazoa	355	False	4
+11559	Q01080	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	415	False	4
+11560	Q04500	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	899	False	4
+11561	Q05CL8	Mus musculus	Metazoa	570	False	4
+11565	Q07623	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	225	False	4
+11566	Q07845	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	632	False	4
+11575	Q9FVE6	Arabidopsis thaliana	Viridiplantae	245	False	4
+11576	Q9JI13	Mus musculus	Metazoa	469	False	4
+11577	Q9Y118	Drosophila melanogaster	Metazoa	431	False	4
+11578	P05375	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	206	True	4
+11579	Q04311	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	632	False	4
+11581	O17286	Caenorhabditis elegans	Metazoa	403	False	4
+11584	Q02793	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	397	False	4
+11588	Q91WK7	Mus musculus	Metazoa	299	False	4
+11589	Q95QI7	Caenorhabditis elegans	Metazoa	892	False	4
+11590	B5TYT3	Arabidopsis thaliana	Viridiplantae	771	True	4
+11593	O70572	Mus musculus	Metazoa	419	False	4
+11600	P30605	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	584	True	4
+11606	P46014	Arabidopsis thaliana	Viridiplantae	581	True	4
+11611	P70174	Mus musculus	Metazoa	488	True	4
+11613	P70669	Mus musculus	Metazoa	749	True	4
+11618	Q4VAE3	Mus musculus	Metazoa	234	False	4
+11620	Q5KS41	Arabidopsis thaliana	Viridiplantae	486	False	4
+11621	Q5W7F1	Danio rerio	Metazoa	743	True	4
+11622	Q60EC2	Oryza sativa subsp. japonica	Viridiplantae	261	True	4
+11633	Q8R4P5	Mus musculus	Metazoa	757	False	4
+11637	Q94AH1	Arabidopsis thaliana	Viridiplantae	300	True	4
+11654	Q9FGT8	Arabidopsis thaliana	Viridiplantae	186	False	4
+11655	Q7K3L1	Drosophila melanogaster	Metazoa	921	False	4
+11657	F4J264	Arabidopsis thaliana	Viridiplantae	406	False	4
+11663	E9QDC5	Danio rerio	Metazoa	294	True	4
+11666	O35445	Mus musculus	Metazoa	180	False	4
+11687	P50077	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	2039	False	4
+11688	P54657	Dictyostelium discoideum	other	213	False	4
+11693	Q07800	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	427	False	4
+11694	Q5GH67	Mus musculus	Metazoa	647	False	4
+11697	Q6MG82	Rattus norvegicus	Metazoa	306	False	4
+11700	Q80UF9	Mus musculus	Metazoa	577	True	4
+11709	Q8VZU2	Arabidopsis thaliana	Viridiplantae	304	False	4
+11711	Q9C7S5	Arabidopsis thaliana	Viridiplantae	1095	True	4
+11712	Q9CX92	Mus musculus	Metazoa	205	True	4
+11713	Q9FJW3	Arabidopsis thaliana	Viridiplantae	82	True	4
+11714	Q9FKP4	Arabidopsis thaliana	Viridiplantae	1264	False	4
+11719	Q9SZR9	Arabidopsis thaliana	Viridiplantae	638	False	4
+11720	Q9VB46	Drosophila melanogaster	Metazoa	579	True	4
+11725	O48528	Arabidopsis thaliana	Viridiplantae	159	True	4
+11727	Q9FPR3	Arabidopsis thaliana	Viridiplantae	933	False	4
+11733	P53140	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	646	False	4
+11737	Q91VD9	Mus musculus	Metazoa	727	False	4
+11738	Q945M1	Arabidopsis thaliana	Viridiplantae	117	False	4
+11739	Q9CQ75	Mus musculus	Metazoa	99	False	4
+11740	B6VQ60	Caenorhabditis elegans	Metazoa	612	False	4
+11741	G5EFY7	Caenorhabditis elegans	Metazoa	295	False	4
+11742	P38890	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	526	False	4
+11743	P38989	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1170	False	4
+11751	Q99KP6	Mus musculus	Metazoa	504	False	4
+11752	Q9VN60	Drosophila melanogaster	Metazoa	278	False	4
+11754	B9FDE0	Oryza sativa subsp. japonica	Viridiplantae	494	False	4
+11759	O88457	Rattus norvegicus	Metazoa	1765	False	4
+11777	P97577	Rattus norvegicus	Metazoa	393	False	4
+11778	P97813	Mus musculus	Metazoa	933	False	4
+11782	Q10PI9	Oryza sativa subsp. japonica	Viridiplantae	459	False	4
+11784	Q17990	Caenorhabditis elegans	Metazoa	439	True	4
+11785	Q20024	Caenorhabditis elegans	Metazoa	306	False	4
+11787	Q2MHE4	Arabidopsis thaliana	Viridiplantae	390	False	4
+11789	Q3UHC2	Mus musculus	Metazoa	2014	False	4
+11796	Q6DYE8	Mus musculus	Metazoa	874	True	4
+11800	Q76JU9	Mus musculus	Metazoa	300	True	4
+11802	Q80WT4	Mus musculus	Metazoa	515	True	4
+11808	Q8W4J9	Arabidopsis thaliana	Viridiplantae	908	False	4
+11812	Q9FNH6	Arabidopsis thaliana	Viridiplantae	231	True	4
+11816	Q9S752	Arabidopsis thaliana	Viridiplantae	388	False	4
+11818	Q9SWW6	Arabidopsis thaliana	Viridiplantae	1026	False	4
+11820	Q9Z1A5	Rattus norvegicus	Metazoa	534	False	4
+11823	D3ZAW2	Rattus norvegicus	Metazoa	406	True	4
+11827	P22315	Mus musculus	Metazoa	422	False	4
+11828	P27680	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	312	False	4
+11829	P27697	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	501	False	4
+11831	P43594	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	170	False	4
+11832	P51175	Mus musculus	Metazoa	477	False	4
+11837	Q9CPP6	Mus musculus	Metazoa	116	False	4
+11839	Q9FJW4	Arabidopsis thaliana	Viridiplantae	154	False	4
+11840	Q06681	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1438	False	4
+11842	Q6K1E7	Mus musculus	Metazoa	370	False	4
+11847	P46414	Mus musculus	Metazoa	197	False	4
+11848	Q08297	Mus musculus	Metazoa	339	False	4
+11849	Q3HNG7	Bos taurus	Metazoa	343	False	4
+11850	Q5Q0E6	Arabidopsis thaliana	Viridiplantae	473	False	4
+11852	Q8BG87	Mus musculus	Metazoa	1803	False	4
+11853	Q8T0D4	Drosophila melanogaster	Metazoa	299	False	4
+11857	Q9VC61	Drosophila melanogaster	Metazoa	755	False	4
+11859	F1M386	Rattus norvegicus	Metazoa	1496	False	4
+11861	G5ECD6	Caenorhabditis elegans	Metazoa	1322	True	4
+11863	O08564	Rattus norvegicus	Metazoa	282	True	4
+11875	P30557	Mus musculus	Metazoa	365	True	4
+11878	P51830	Mus musculus	Metazoa	1353	False	4
+11881	Q10L01	Oryza sativa subsp. japonica	Viridiplantae	382	True	4
+11882	Q18593	Caenorhabditis elegans	Metazoa	329	True	4
+11883	Q20929	Caenorhabditis elegans	Metazoa	510	True	4
+11884	Q24322	Drosophila melanogaster	Metazoa	899	True	4
+11885	Q2THW7	Rattus norvegicus	Metazoa	715	True	4
+11887	Q3T9M1	Mus musculus	Metazoa	494	False	4
+11888	Q3TH73	Mus musculus	Metazoa	532	True	4
+11889	Q4KL25	Mus musculus	Metazoa	219	True	4
+11891	Q54XY4	Dictyostelium discoideum	other	1582	False	4
+11894	Q6A0D4	Mus musculus	Metazoa	554	False	4
+11896	Q6UVM4	Rattus norvegicus	Metazoa	1142	True	4
+11901	Q8BUX5	Mus musculus	Metazoa	455	True	4
+11904	Q8IS16	Dictyostelium discoideum	other	604	False	4
+11915	Q91VH1	Mus musculus	Metazoa	375	False	4
+11923	Q9JJK1	Rattus norvegicus	Metazoa	265	True	4
+11930	Q9Z0D9	Mus musculus	Metazoa	354	True	4
+11933	P02240	Lupinus luteus	Viridiplantae	154	False	4
+11935	A0A061ACU2	Caenorhabditis elegans	Metazoa	2442	True	4
+11944	G5EF48	Caenorhabditis elegans	Metazoa	350	True	4
+11945	O08590	Rattus norvegicus	Metazoa	763	True	4
+11959	P34226	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	696	False	4
+11962	P42838	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	414	True	4
+11965	P49654	Rattus norvegicus	Metazoa	397	True	4
+11970	P56564	Mus musculus	Metazoa	543	True	4
+11972	P93758	Arabidopsis thaliana	Viridiplantae	274	False	4
+11975	Q06598	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	404	True	4
+11976	Q10R09	Oryza sativa subsp. japonica	Viridiplantae	310	False	4
+11988	Q7M750	Mus musculus	Metazoa	143	True	4
+11990	Q80YF9	Mus musculus	Metazoa	1305	False	4
+11991	Q84VQ1	Arabidopsis thaliana	Viridiplantae	283	False	4
+11993	Q8C9E8	Mus musculus	Metazoa	313	True	4
+11994	Q8CBX0	Mus musculus	Metazoa	802	True	4
+11997	Q8VC04	Mus musculus	Metazoa	261	False	4
+11998	Q8VCM2	Mus musculus	Metazoa	349	False	4
+12007	Q9VJN5	Drosophila melanogaster	Metazoa	470	False	4
+12009	Q9WTW8	Rattus norvegicus	Metazoa	647	False	4
+12012	P40471	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	297	False	4
+12013	Q9CRB9	Mus musculus	Metazoa	227	False	4
+12014	Q2TBE6	Mus musculus	Metazoa	479	False	4
+12018	P38170	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	754	False	4
+12020	Q21209	Caenorhabditis elegans	Metazoa	702	False	4
+12022	Q9CQJ4	Mus musculus	Metazoa	336	False	4
+12023	Q9D995	Mus musculus	Metazoa	334	False	4
+12024	Q9V629	Drosophila melanogaster	Metazoa	384	False	4
+12026	Q9W148	Drosophila melanogaster	Metazoa	731	False	4
+12028	Q84JF5	Arabidopsis thaliana	Viridiplantae	483	False	4
+12029	P46062	Mus musculus	Metazoa	1037	False	4
+12033	Q500U8	Arabidopsis thaliana	Viridiplantae	326	False	4
+12034	Q9DBR0	Mus musculus	Metazoa	687	False	4
+12036	D3ZVU9	Rattus norvegicus	Metazoa	299	False	4
+12038	P38228	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	572	False	4
+12039	P10824	Rattus norvegicus	Metazoa	354	False	4
+12041	P46943	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	645	False	4
+12043	P99028	Mus musculus	Metazoa	89	False	4
+12044	Q01519	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	83	False	4
+12045	Q8BMP6	Mus musculus	Metazoa	525	False	4
+12047	Q9D6J6	Mus musculus	Metazoa	248	False	4
+12053	P07257	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	368	False	4
+12055	P32335	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	436	False	4
+12059	P53264	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	445	False	4
+12062	Q91YT0	Mus musculus	Metazoa	464	False	4
+12064	Q9DB77	Mus musculus	Metazoa	453	False	4
+12065	Q9ZPX5	Arabidopsis thaliana	Viridiplantae	632	False	4
+12066	D3ZUA0	Rattus norvegicus	Metazoa	338	False	4
+12069	P0C089	Rattus norvegicus	Metazoa	193	False	4
+12070	P18886	Rattus norvegicus	Metazoa	658	False	4
+12072	P32344	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	111	False	4
+12073	P36130	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	643	False	4
+12074	P38323	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	520	False	4
+12075	P42844	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	174	False	4
+12076	P49017	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	307	False	4
+12077	P54861	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	757	False	4
+12079	Q9DC70	Mus musculus	Metazoa	224	False	4
+12080	Q9JJG9	Mus musculus	Metazoa	693	False	4
+12082	P32944	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	819	False	4
+12086	A0A5E4M3Q4	Caenorhabditis elegans	Metazoa	554	False	4
+12089	E9PVX6	Mus musculus	Metazoa	3177	False	4
+12090	F4KDN0	Arabidopsis thaliana	Viridiplantae	857	False	4
+12091	G5EEW6	Caenorhabditis elegans	Metazoa	427	False	4
+12092	O35144	Mus musculus	Metazoa	541	False	4
+12094	O54825	Mus musculus	Metazoa	436	False	4
+12096	O70372	Mus musculus	Metazoa	1122	False	4
+12097	P25443	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	254	False	4
+12098	P32914	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	102	False	4
+12100	P40167	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	298	False	4
+12101	P40541	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1150	False	4
+12103	P48240	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	250	False	4
+12104	P51521	Drosophila melanogaster	Metazoa	1351	False	4
+12110	Q12277	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	265	False	4
+12111	Q12754	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1228	False	4
+12115	Q680Q4	Arabidopsis thaliana	Viridiplantae	884	False	4
+12116	Q6NME7	Arabidopsis thaliana	Viridiplantae	127	False	4
+12117	Q6Q4D0	Arabidopsis thaliana	Viridiplantae	1311	False	4
+12118	Q7K4V4	Drosophila melanogaster	Metazoa	244	False	4
+12119	Q8C5S7	Mus musculus	Metazoa	591	False	4
+12120	Q8CGB3	Mus musculus	Metazoa	1411	False	4
+12122	Q8R0S1	Mus musculus	Metazoa	413	False	4
+12123	Q920Q8	Mus musculus	Metazoa	642	False	4
+12124	Q940Z2	Arabidopsis thaliana	Viridiplantae	724	False	4
+12125	Q95RV2	Drosophila melanogaster	Metazoa	345	False	4
+12130	Q9FR37	Arabidopsis thaliana	Viridiplantae	425	False	4
+12131	Q9JIY2	Mus musculus	Metazoa	491	False	4
+12132	Q9VRP5	Drosophila melanogaster	Metazoa	1038	False	4
+12133	Q9ZVD0	Arabidopsis thaliana	Viridiplantae	720	False	4
+12135	P28321	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	313	False	4
+12136	Q9SE83	Arabidopsis thaliana	Viridiplantae	914	False	4
+12138	Q6PDS3	Mus musculus	Metazoa	724	False	4
+12139	P52296	Rattus norvegicus	Metazoa	875	False	4
+12141	Q00899	Mus musculus	Metazoa	414	False	4
+12142	Q5BJY9	Rattus norvegicus	Metazoa	423	False	4
+12150	P83006	Rattus norvegicus	Metazoa	390	False	4
+12151	Q05776	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	175	False	4
+12152	Q99LY9	Mus musculus	Metazoa	106	False	4
+12155	Q8LDS4	Arabidopsis thaliana	Viridiplantae	319	False	4
+12160	Q9SXZ2	Arabidopsis thaliana	Viridiplantae	175	False	4
+12163	O35914	Mus musculus	Metazoa	961	False	4
+12168	P06367	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	137	False	4
+12170	P11101	Rattus norvegicus	Metazoa	114	False	4
+12171	P25359	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	394	False	4
+12172	P34341	Caenorhabditis elegans	Metazoa	821	False	4
+12173	P35194	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	2493	False	4
+12174	P35201	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	549	False	4
+12175	P35203	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	478	False	4
+12176	P36012	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	229	False	4
+12177	P38110	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	2787	False	4
+12178	P38236	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	366	False	4
+12181	P39706	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	426	False	4
+12185	P91399	Caenorhabditis elegans	Metazoa	926	False	4
+12186	Q04437	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	629	False	4
+12189	Q12188	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	680	False	4
+12193	Q7TMF2	Mus musculus	Metazoa	345	False	4
+12194	Q7TQD2	Mus musculus	Metazoa	218	False	4
+12195	Q810M6	Mus musculus	Metazoa	228	False	4
+12196	Q84TH4	Arabidopsis thaliana	Viridiplantae	382	False	4
+12197	Q8C3P7	Mus musculus	Metazoa	580	False	4
+12199	Q8S9G8	Arabidopsis thaliana	Viridiplantae	801	False	4
+12201	Q99MR6	Mus musculus	Metazoa	875	False	4
+12202	Q99PV0	Mus musculus	Metazoa	2335	False	4
+12203	Q9C5J3	Arabidopsis thaliana	Viridiplantae	946	False	4
+12210	Q9SU05	Arabidopsis thaliana	Viridiplantae	382	False	4
+12212	Q9XZ34	Drosophila melanogaster	Metazoa	1416	False	4
+12213	P0DP99	Mus musculus	Metazoa	47	True	4
+12214	Q9CR61	Mus musculus	Metazoa	137	False	4
+12215	A1A6M1	Arabidopsis thaliana	Viridiplantae	387	False	4
+12217	Q1H5E9	Arabidopsis thaliana	Viridiplantae	397	False	4
+12218	Q8GWA2	Arabidopsis thaliana	Viridiplantae	273	False	4
+12219	P53620	Bos taurus	Metazoa	874	False	4
+12223	B8ZXI1	Mus musculus	Metazoa	415	False	4
+12224	P38279	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	296	True	4
+12228	P41047	Mus musculus	Metazoa	279	True	4
+12233	Q09406	Caenorhabditis elegans	Metazoa	534	False	4
+12234	Q0JHU5	Oryza sativa subsp. japonica	Viridiplantae	159	False	4
+12235	Q80SY4	Mus musculus	Metazoa	1006	False	4
+12237	Q9FHK4	Arabidopsis thaliana	Viridiplantae	615	False	4
+12238	Q9QXK9	Mus musculus	Metazoa	374	False	4
+12244	B7Z0L8	Drosophila melanogaster	Metazoa	178	False	4
+12245	O08816	Rattus norvegicus	Metazoa	501	False	4
+12246	O49570	Arabidopsis thaliana	Viridiplantae	650	False	4
+12248	P0CX38	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	236	False	4
+12251	P42698	Arabidopsis thaliana	Viridiplantae	387	False	4
+12253	P53256	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	223	False	4
+12254	P53859	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	292	False	4
+12258	P70122	Mus musculus	Metazoa	250	False	4
+12260	P92966	Arabidopsis thaliana	Viridiplantae	356	False	4
+12261	P97868	Mus musculus	Metazoa	1790	False	4
+12262	Q02457	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	562	False	4
+12263	Q05636	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	305	False	4
+12264	Q06163	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	884	False	4
+12265	Q12386	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	881	False	4
+12268	Q5SUQ9	Mus musculus	Metazoa	1212	False	4
+12269	Q6AYD3	Rattus norvegicus	Metazoa	394	False	4
+12270	Q6ZWS8	Mus musculus	Metazoa	374	False	4
+12271	Q811H0	Mus musculus	Metazoa	420	False	4
+12274	Q8VY74	Arabidopsis thaliana	Viridiplantae	333	False	4
+12275	Q8W4B1	Arabidopsis thaliana	Viridiplantae	652	False	4
+12280	Q9FJH5	Arabidopsis thaliana	Viridiplantae	283	False	4
+12284	Q9W252	Drosophila melanogaster	Metazoa	1318	False	4
+12285	Q9W4S7	Drosophila melanogaster	Metazoa	717	False	4
+12286	P08011	Rattus norvegicus	Metazoa	155	True	4
+12289	P01872	Mus musculus	Metazoa	454	False	4
+12295	Q9SS80	Arabidopsis thaliana	Viridiplantae	685	False	4
+12296	O04492	Arabidopsis thaliana	Viridiplantae	419	False	4
+12297	O13516	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	197	False	4
+12302	P29539	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1916	False	4
+12303	P32479	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	840	False	4
+12306	P53927	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	220	False	4
+12309	Q12366	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	352	False	4
+12310	Q12522	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	245	False	4
+12311	Q1LZ24	Drosophila melanogaster	Metazoa	586	False	4
+12313	Q24434	Drosophila melanogaster	Metazoa	479	False	4
+12320	Q6PR54	Mus musculus	Metazoa	2419	False	4
+12324	Q8K330	Mus musculus	Metazoa	649	False	4
+12327	Q91VJ5	Mus musculus	Metazoa	263	False	4
+12329	Q9DA19	Mus musculus	Metazoa	450	False	4
+12333	Q9LJ97	Arabidopsis thaliana	Viridiplantae	262	False	4
+12335	Q9LVB9	Arabidopsis thaliana	Viridiplantae	172	False	4
+12339	Q9VTZ2	Drosophila melanogaster	Metazoa	214	False	4
+12340	Q9VV73	Drosophila melanogaster	Metazoa	841	False	4
+12341	Q9VW51	Drosophila melanogaster	Metazoa	1059	False	4
+12342	Q9W261	Drosophila melanogaster	Metazoa	775	False	4
+12343	Q9Z2F5	Rattus norvegicus	Metazoa	430	False	4
+12346	Q05860	Mus musculus	Metazoa	1466	False	4
+12347	A2AIV2	Mus musculus	Metazoa	1811	False	4
+12348	B4XT64	Oryza sativa subsp. japonica	Viridiplantae	582	False	4
+12349	O17850	Caenorhabditis elegans	Metazoa	317	False	4
+12352	P21691	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	654	False	4
+12353	P32526	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	644	False	4
+12354	P32807	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	602	False	4
+12355	P33201	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	236	False	4
+12361	P46963	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	296	False	4
+12362	P48164	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	190	False	4
+12364	P97481	Mus musculus	Metazoa	874	False	4
+12365	Q04002	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1493	False	4
+12366	Q05344	Drosophila melanogaster	Metazoa	723	False	4
+12367	Q07381	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	788	False	4
+12368	Q11184	Caenorhabditis elegans	Metazoa	425	False	4
+12369	Q12158	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	566	False	4
+12370	Q22799	Caenorhabditis elegans	Metazoa	89	False	4
+12371	Q3U0V2	Mus musculus	Metazoa	310	False	4
+12372	Q61464	Mus musculus	Metazoa	1960	False	4
+12373	Q62209	Mus musculus	Metazoa	993	False	4
+12376	Q8BJA3	Mus musculus	Metazoa	419	False	4
+12378	Q924H7	Mus musculus	Metazoa	646	False	4
+12380	Q94234	Caenorhabditis elegans	Metazoa	204	False	4
+12381	Q9CA42	Arabidopsis thaliana	Viridiplantae	1085	False	4
+12382	Q9DBD5	Mus musculus	Metazoa	1123	False	4
+12384	Q9FLL1	Arabidopsis thaliana	Viridiplantae	602	False	4
+12385	Q9JLC3	Mus musculus	Metazoa	116	False	4
+12386	Q9LHF5	Arabidopsis thaliana	Viridiplantae	602	False	4
+12387	Q9M2X3	Arabidopsis thaliana	Viridiplantae	295	False	4
+12388	Q9N5S3	Caenorhabditis elegans	Metazoa	365	False	4
+12390	Q9VM92	Drosophila melanogaster	Metazoa	756	False	4
+12391	Q9VPM5	Drosophila melanogaster	Metazoa	539	False	4
+12392	Q07807	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	879	False	4
+12395	P41958	Caenorhabditis elegans	Metazoa	280	False	4
+12397	P22734	Rattus norvegicus	Metazoa	264	True	4
+12398	P22812	Drosophila melanogaster	Metazoa	462	False	4
+12400	P38271	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	328	False	4
+12401	P81900	Drosophila melanogaster	Metazoa	377	False	4
+12407	Q54XQ2	Dictyostelium discoideum	other	1125	False	4
+12408	Q60700	Mus musculus	Metazoa	888	False	4
+12413	P16862	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	959	False	4
+12414	Q64429	Mus musculus	Metazoa	543	False	4
+12415	G5EE01	Caenorhabditis elegans	Metazoa	962	False	4
+12416	P32790	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1244	False	4
+12417	O64973	Arabidopsis thaliana	Viridiplantae	889	False	4
+12422	P63212	Bos taurus	Metazoa	71	False	4
+12427	A2AMT1	Mus musculus	Metazoa	669	False	4
+12428	A8MQL1	Arabidopsis thaliana	Viridiplantae	1082	False	4
+12429	O35625	Mus musculus	Metazoa	863	False	4
+12430	P32120	Bos taurus	Metazoa	420	False	4
+12434	Q8BG21	Mus musculus	Metazoa	171	True	4
+12435	Q8CJ00	Mus musculus	Metazoa	444	False	4
+12437	Q9FMZ0	Arabidopsis thaliana	Viridiplantae	337	False	4
+12441	D3ZX63	Rattus norvegicus	Metazoa	334	False	4
+12442	O54982	Mus musculus	Metazoa	1121	True	4
+12447	Q63768	Rattus norvegicus	Metazoa	304	False	4
+12449	Q8L940	Arabidopsis thaliana	Viridiplantae	309	False	4
+12450	Q9WTR1	Mus musculus	Metazoa	756	False	4
+12451	P22071	Rattus norvegicus	Metazoa	373	False	4
+12460	P41933	Caenorhabditis elegans	Metazoa	457	False	4
+12461	P49021	Drosophila melanogaster	Metazoa	1398	False	4
+12463	P97367	Mus musculus	Metazoa	477	False	4
+12464	Q12080	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	455	False	4
+12465	Q21738	Caenorhabditis elegans	Metazoa	335	False	4
+12467	Q9V3Z1	Drosophila melanogaster	Metazoa	484	False	4
+12471	P49334	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	152	False	4
+12472	Q64442	Mus musculus	Metazoa	357	False	4
+12479	E9Q7G0	Mus musculus	Metazoa	2094	False	4
+12480	O08773	Rattus norvegicus	Metazoa	544	False	4
+12484	P61793	Mus musculus	Metazoa	364	True	4
+12491	Q9XGM3	Arabidopsis thaliana	Viridiplantae	1217	False	4
+12492	O77059	Drosophila melanogaster	Metazoa	542	False	4
+12497	Q19541	Caenorhabditis elegans	Metazoa	169	False	4
+12501	Q62187	Mus musculus	Metazoa	859	False	4
+12502	Q64279	Mus musculus	Metazoa	216	False	4
+12503	Q9I7K6	Drosophila melanogaster	Metazoa	492	False	4
+12504	O74991	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	577	False	4
+12505	G3XA57	Mus musculus	Metazoa	512	False	4
+12509	P54654	Dictyostelium discoideum	other	464	False	4
+12514	Q3U9N9	Mus musculus	Metazoa	512	True	4
+12516	Q5EAF2	Arabidopsis thaliana	Viridiplantae	334	False	4
+12523	Q95QW4	Caenorhabditis elegans	Metazoa	561	False	4
+12524	Q9D808	Mus musculus	Metazoa	123	True	4
+12527	Q9JJ09	Rattus norvegicus	Metazoa	695	False	4
+12528	Q9R0W5	Rattus norvegicus	Metazoa	495	True	4
+12535	Q80VQ0	Mus musculus	Metazoa	468	False	4
+12541	P86044	Mus musculus	Metazoa	747	False	4
+12542	Q3UNH4	Mus musculus	Metazoa	932	False	4
+12545	Q8H186	Arabidopsis thaliana	Viridiplantae	389	False	4
+12552	Q3E7A4	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	109	False	4
+12554	P83103	Drosophila melanogaster	Metazoa	566	False	4
+12556	Q54HC6	Dictyostelium discoideum	other	1460	False	4
+12557	Q8MQX9	Drosophila melanogaster	Metazoa	1174	False	4
+12558	Q8R1N0	Mus musculus	Metazoa	363	False	4
+12560	Q9QXM1	Mus musculus	Metazoa	983	False	4
+12562	Q3TQ03	Mus musculus	Metazoa	375	False	4
+12563	Q7XA66	Arabidopsis thaliana	Viridiplantae	242	False	4
+12564	Q923W1	Mus musculus	Metazoa	853	False	4
+12565	F1MH24	Bos taurus	Metazoa	957	False	4
+12578	Q39214	Arabidopsis thaliana	Viridiplantae	926	False	4
+12583	Q501F9	Arabidopsis thaliana	Viridiplantae	370	False	4
+12588	Q8VHL0	Mus musculus	Metazoa	384	True	4
+12590	Q94CE4	Arabidopsis thaliana	Viridiplantae	280	False	4
+12591	Q99ML0	Mus musculus	Metazoa	440	False	4
+12592	Q9CR51	Mus musculus	Metazoa	118	False	4
+12595	Q9JHI9	Mus musculus	Metazoa	570	True	4
+12599	Q2MH31	Mus musculus	Metazoa	260	False	4
+12604	P16554	Drosophila melanogaster	Metazoa	556	False	4
+12605	P38557	Arabidopsis thaliana	Viridiplantae	474	False	4
+12607	Q0WVH0	Arabidopsis thaliana	Viridiplantae	594	False	4
+12614	Q9SJ50	Arabidopsis thaliana	Viridiplantae	333	False	4
+12615	Q29455	Bos taurus	Metazoa	198	False	4
+12629	Q07436	Drosophila melanogaster	Metazoa	1427	False	4
+12638	Q8K440	Mus musculus	Metazoa	1620	True	4
+12641	Q99K24	Mus musculus	Metazoa	317	True	4
+12643	Q9D818	Mus musculus	Metazoa	391	False	4
+12646	Q9SWI1	Arabidopsis thaliana	Viridiplantae	439	False	4
+12648	D6VTK4	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	431	True	4
+12650	O17386	Caenorhabditis elegans	Metazoa	458	True	4
+12661	P38360	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1216	False	4
+12668	Q03770	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	852	False	4
+12678	Q8VZ80	Arabidopsis thaliana	Viridiplantae	539	True	4
+12680	Q9C757	Arabidopsis thaliana	Viridiplantae	580	True	4
+12692	Q9QZ04	Mus musculus	Metazoa	1284	False	4
+12693	Q9SU72	Arabidopsis thaliana	Viridiplantae	623	False	4
+12696	O82504	Arabidopsis thaliana	Viridiplantae	1133	False	4
+12698	P29617	Drosophila melanogaster	Metazoa	1703	False	4
+12700	P39015	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	273	False	4
+12701	P97452	Mus musculus	Metazoa	732	False	4
+12703	Q09293	Caenorhabditis elegans	Metazoa	367	False	4
+12704	Q10953	Caenorhabditis elegans	Metazoa	796	False	4
+12707	Q7TQK0	Mus musculus	Metazoa	723	False	4
+12708	Q9M297	Arabidopsis thaliana	Viridiplantae	1256	False	4
+12709	Q9VEX5	Drosophila melanogaster	Metazoa	689	False	4
+12710	Q9Z2F6	Mus musculus	Metazoa	448	False	4
+12713	O54697	Rattus norvegicus	Metazoa	745	True	4
+12714	O54699	Rattus norvegicus	Metazoa	456	True	4
+12723	Q08245	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	113	False	4
+12730	Q8R139	Mus musculus	Metazoa	528	True	4
+12736	Q9WUB6	Mus musculus	Metazoa	687	True	4
+12737	Q3UL36	Mus musculus	Metazoa	271	False	4
+12740	Q9QZR8	Rattus norvegicus	Metazoa	2766	False	4
+12744	Q8BY35	Mus musculus	Metazoa	655	False	4
+12745	P48558	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	297	True	4
+12748	Q18825	Caenorhabditis elegans	Metazoa	811	False	4
+12753	G5EEC5	Caenorhabditis elegans	Metazoa	414	False	4
+12754	O35710	Mus musculus	Metazoa	429	False	4
+12755	O76616	Caenorhabditis elegans	Metazoa	307	False	4
+12757	P34160	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	861	False	4
+12761	Q6ZQL4	Mus musculus	Metazoa	677	False	4
+12768	G5EGP4	Caenorhabditis elegans	Metazoa	865	False	4
+12772	P35293	Mus musculus	Metazoa	206	False	4
+12775	P91082	Caenorhabditis elegans	Metazoa	317	False	4
+12776	P97414	Mus musculus	Metazoa	668	False	4
+12777	Q08857	Mus musculus	Metazoa	472	True	4
+12778	Q20591	Caenorhabditis elegans	Metazoa	86	True	4
+12781	Q80U72	Mus musculus	Metazoa	1665	False	4
+12785	Q8VIM4	Mus musculus	Metazoa	307	True	4
+12786	Q91WV7	Mus musculus	Metazoa	685	True	4
+12792	Q9VFX3	Drosophila melanogaster	Metazoa	137	True	4
+12796	O04714	Arabidopsis thaliana	Viridiplantae	326	True	4
+12806	P38227	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	689	False	4
+12809	P81909	Drosophila melanogaster	Metazoa	397	True	4
+12812	Q12333	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	620	True	4
+12813	Q12361	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	961	True	4
+12826	Q9FG00	Arabidopsis thaliana	Viridiplantae	491	True	4
+12827	Q9FKS8	Arabidopsis thaliana	Viridiplantae	446	True	4
+12829	Q9SFB0	Arabidopsis thaliana	Viridiplantae	526	True	4
+12831	Q9U7D5	Caenorhabditis elegans	Metazoa	611	True	4
+12832	O08901	Mus musculus	Metazoa	1058	False	4
+12833	P16522	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	626	False	4
+12835	P40460	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	691	False	4
+12836	P41695	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1021	False	4
+12837	P70399	Mus musculus	Metazoa	1969	False	4
+12838	Q04477	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	213	False	4
+12841	Q9U1H9	Drosophila melanogaster	Metazoa	672	False	4
+12847	Q8S4F6	Arabidopsis thaliana	Viridiplantae	510	False	4
+12848	Q06324	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	491	False	4
+12860	P30551	Rattus norvegicus	Metazoa	444	True	4
+12867	Q08417	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	382	True	4
+12872	Q8H157	Arabidopsis thaliana	Viridiplantae	585	True	4
+12873	Q8L7E9	Arabidopsis thaliana	Viridiplantae	421	False	4
+12876	Q9AUE0	Arabidopsis thaliana	Viridiplantae	1950	False	4
+12883	Q9LD83	Arabidopsis thaliana	Viridiplantae	556	False	4
+12884	Q9LRB7	Oryza sativa subsp. japonica	Viridiplantae	325	True	4
+12885	Q9M670	Arabidopsis thaliana	Viridiplantae	366	False	4
+12887	Q9SAH8	Arabidopsis thaliana	Viridiplantae	532	True	4
+12889	Q9VNB5	Drosophila melanogaster	Metazoa	486	True	4
+12890	Q9WVL3	Mus musculus	Metazoa	1083	False	4
+12893	P12624	Bos taurus	Metazoa	333	False	4
+12905	Q9VKM1	Drosophila melanogaster	Metazoa	843	False	4
+12908	P05030	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	918	False	4
+12911	P18581	Mus musculus	Metazoa	657	True	4
+12919	P92949	Arabidopsis thaliana	Viridiplantae	725	True	4
+12931	Q80WK2	Mus musculus	Metazoa	128	True	4
+12933	Q8VYM2	Arabidopsis thaliana	Viridiplantae	524	True	4
+12944	Q8VY77	Arabidopsis thaliana	Viridiplantae	91	True	4
+12945	Q9SYM0	Arabidopsis thaliana	Viridiplantae	333	False	4
+12947	O22267	Arabidopsis thaliana	Viridiplantae	1122	True	4
+12948	O81775	Arabidopsis thaliana	Viridiplantae	158	True	4
+12954	P34886	Caenorhabditis elegans	Metazoa	724	False	4
+12955	P38250	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	946	False	4
+12960	Q07824	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	586	False	4
+12962	Q2Q5T5	Mus musculus	Metazoa	84	True	4
+12963	Q38998	Arabidopsis thaliana	Viridiplantae	857	True	4
+12967	Q62674	Rattus norvegicus	Metazoa	648	True	4
+12970	Q84TI7	Arabidopsis thaliana	Viridiplantae	506	True	4
+12971	Q96247	Arabidopsis thaliana	Viridiplantae	485	True	4
+12976	Q9LKW9	Arabidopsis thaliana	Viridiplantae	1146	True	4
+12977	Q9LX93	Arabidopsis thaliana	Viridiplantae	301	True	4
+12979	Q9Z0J4	Mus musculus	Metazoa	1429	False	4
+12980	P38313	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	324	False	4
+12981	P38907	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	458	False	4
+12982	P40568	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	576	False	4
+12984	Q8CJ27	Mus musculus	Metazoa	3122	False	4
+12985	A1ZAW0	Drosophila melanogaster	Metazoa	1722	False	4
+12986	E9PT37	Rattus norvegicus	Metazoa	1207	False	4
+12987	P49906	Drosophila melanogaster	Metazoa	196	False	4
+12988	G5EEU2	Caenorhabditis elegans	Metazoa	714	False	4
+12991	P30658	Mus musculus	Metazoa	519	False	4
+12992	P35732	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	738	False	4
+12995	O70343	Mus musculus	Metazoa	797	False	4
+12996	Q07279	Mus musculus	Metazoa	373	False	4
+12997	Q6DRC5	Danio rerio	Metazoa	1014	False	4
+12998	Q94A03	Arabidopsis thaliana	Viridiplantae	391	False	4
+12999	Q9CA67	Arabidopsis thaliana	Viridiplantae	467	False	4
+13005	Q8VDL9	Mus musculus	Metazoa	521	False	4
+13008	Q8RXN6	Arabidopsis thaliana	Viridiplantae	485	False	4
+13009	Q99ML9	Mus musculus	Metazoa	989	False	4
+13010	Q9JM05	Mus musculus	Metazoa	507	False	4
+13011	F4ITM1	Arabidopsis thaliana	Viridiplantae	398	False	4
+13014	Q8BM47	Mus musculus	Metazoa	761	False	4
+13015	Q7X6P3	Arabidopsis thaliana	Viridiplantae	608	False	4
+13018	Q9NEZ5	Caenorhabditis elegans	Metazoa	350	False	4
+13020	P00950	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	247	False	4
+13022	F4J8G7	Arabidopsis thaliana	Viridiplantae	2138	False	4
+13023	H2L056	Caenorhabditis elegans	Metazoa	613	False	4
+13028	Q8K136	Mus musculus	Metazoa	229	False	4
+13030	Q9EP97	Mus musculus	Metazoa	568	False	4
+13031	Q9EQ61	Mus musculus	Metazoa	584	False	4
+13034	Q9ZSZ8	Arabidopsis thaliana	Viridiplantae	330	False	4
+13035	D3ZUE1	Rattus norvegicus	Metazoa	857	False	4
+13036	P22224	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	910	False	4
+13040	Q00731	Mus musculus	Metazoa	392	False	4
+13041	Q18PE0	Mus musculus	Metazoa	504	False	4
+13043	Q3S4A7	Arabidopsis thaliana	Viridiplantae	922	False	4
+13045	Q9JIR4	Rattus norvegicus	Metazoa	1615	False	4
+13050	P41698	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	603	False	4
+13051	Q04359	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	397	False	4
+13059	Q8BJQ4	Mus musculus	Metazoa	232	False	4
+13060	Q1M168	Rattus norvegicus	Metazoa	372	False	4
+13061	P25028	Drosophila melanogaster	Metazoa	696	False	4
+13062	P33895	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	451	False	4
+13064	P38265	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	245	False	4
+13065	P43618	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	361	False	4
+13066	Q02732	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	369	False	4
+13067	Q06675	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	368	False	4
+13068	Q12262	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	181	False	4
+13069	Q12748	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	733	False	4
+13071	Q9R1C7	Mus musculus	Metazoa	953	False	4
+13072	Q9V3V7	Drosophila melanogaster	Metazoa	222	False	4
+13074	Q9VMA3	Drosophila melanogaster	Metazoa	1117	False	4
+13075	P0C6T3	Rattus norvegicus	Metazoa	269	True	4
+13077	Q6ZWQ0	Mus musculus	Metazoa	6874	False	4
+13078	A2SWM2	Danio rerio	Metazoa	504	True	4
+13079	P49769	Mus musculus	Metazoa	467	True	4
+13083	Q93227	Caenorhabditis elegans	Metazoa	431	False	4
+13086	P36046	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	403	True	4
+13087	P56560	Bos taurus	Metazoa	520	False	4
+13090	Q9SZ42	Arabidopsis thaliana	Viridiplantae	323	False	4
+13091	D3YXJ0	Mus musculus	Metazoa	1211	False	4
+13096	Q3U6Q4	Mus musculus	Metazoa	756	False	4
+13097	Q8VYU8	Arabidopsis thaliana	Viridiplantae	396	False	4
+13098	Q9ES73	Rattus norvegicus	Metazoa	775	False	4
+13101	Q04013	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	314	True	4
+13102	P25651	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	190	False	4
+13106	Q94AI4	Arabidopsis thaliana	Viridiplantae	775	False	4
+13107	Q9LPZ4	Arabidopsis thaliana	Viridiplantae	204	False	4
+13109	Q02455	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1875	False	4
+13110	P40014	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	221	False	4
+13111	P40072	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	274	False	4
+13113	P47167	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	239	False	4
+13114	P53148	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	917	False	4
+13116	Q04431	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	385	False	4
+13117	Q08444	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	459	False	4
+13118	Q21952	Caenorhabditis elegans	Metazoa	490	False	4
+13120	Q8CJ67	Mus musculus	Metazoa	570	False	4
+13122	Q22355	Caenorhabditis elegans	Metazoa	377	False	4
+13126	O55035	Rattus norvegicus	Metazoa	752	False	4
+13127	P26449	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	341	False	4
+13128	P34283	Caenorhabditis elegans	Metazoa	442	False	4
+13130	P47149	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	201	False	4
+13131	P53298	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	406	False	4
+13133	Q0JJ05	Oryza sativa subsp. japonica	Viridiplantae	987	False	4
+13136	Q9V6Q2	Drosophila melanogaster	Metazoa	225	False	4
+13143	P48231	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1178	False	4
+13144	Q84T94	Oryza sativa subsp. japonica	Viridiplantae	639	False	4
+13146	Q9LFP6	Arabidopsis thaliana	Viridiplantae	367	True	4
+13147	Q9SYJ8	Arabidopsis thaliana	Viridiplantae	372	False	4
+13148	F4IDB2	Arabidopsis thaliana	Viridiplantae	1325	False	4
+13151	P54258	Rattus norvegicus	Metazoa	1183	False	4
+13154	F4JZY1	Arabidopsis thaliana	Viridiplantae	1586	False	4
+13157	Q54QQ1	Dictyostelium discoideum	other	1387	False	4
+13161	Q9NAN2	Caenorhabditis elegans	Metazoa	309	False	4
+13169	O23403	Arabidopsis thaliana	Viridiplantae	287	False	4
+13172	Q9LXX5	Arabidopsis thaliana	Viridiplantae	262	False	4
+13173	Q9LZD0	Arabidopsis thaliana	Viridiplantae	599	False	4
+13174	Q9STS7	Arabidopsis thaliana	Viridiplantae	353	False	4
+13175	F4I718	Arabidopsis thaliana	Viridiplantae	2136	False	4
+13178	P32855	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1065	False	4
+13185	Q9VCX1	Drosophila melanogaster	Metazoa	1541	False	4
+13186	Q9VEN1	Drosophila melanogaster	Metazoa	2210	False	4
+13188	A1Z8D0	Drosophila melanogaster	Metazoa	459	False	4
+13189	P23804	Mus musculus	Metazoa	489	False	4
+13190	Q04087	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	347	False	4
+13192	Q6P926	Mus musculus	Metazoa	205	False	4
+13194	Q8GXN9	Arabidopsis thaliana	Viridiplantae	930	False	4
+13195	Q8VZA0	Arabidopsis thaliana	Viridiplantae	936	False	4
+13198	Q9JIH2	Mus musculus	Metazoa	466	False	4
+13200	P47002	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	699	False	4
+13201	P47041	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	543	False	4
+13202	P53955	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	656	False	4
+13203	Q7XJJ7	Arabidopsis thaliana	Viridiplantae	607	False	4
+13205	Q8CEG0	Mus musculus	Metazoa	392	True	4
+13210	Q9SEL7	Arabidopsis thaliana	Viridiplantae	323	False	4
+13211	P53238	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	335	False	4
+13212	Q78T81	Mus musculus	Metazoa	392	False	4
+13213	Q9C5H9	Arabidopsis thaliana	Viridiplantae	678	False	4
+13214	G5ECD9	Caenorhabditis elegans	Metazoa	321	True	4
+13220	O88466	Mus musculus	Metazoa	1888	False	4
+13222	P53874	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	792	False	4
+13223	P57725	Mus musculus	Metazoa	372	False	4
+13225	P47054	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1683	False	4
+13226	O22682	Arabidopsis thaliana	Viridiplantae	404	False	4
+13227	O64750	Arabidopsis thaliana	Viridiplantae	186	False	4
+13228	O82660	Arabidopsis thaliana	Viridiplantae	403	False	4
+13229	P82538	Arabidopsis thaliana	Viridiplantae	230	False	4
+13231	O82204	Arabidopsis thaliana	Viridiplantae	143	False	4
+13238	F6ZDS4	Mus musculus	Metazoa	2431	False	4
+13239	Q9VKJ3	Drosophila melanogaster	Metazoa	1411	False	4
+13240	O23144	Arabidopsis thaliana	Viridiplantae	612	False	4
+13242	P19973	Mus musculus	Metazoa	330	False	4
+13243	P70500	Rattus norvegicus	Metazoa	213	True	4
+13246	Q9CQG9	Mus musculus	Metazoa	134	True	4
+13247	Q9D8V0	Mus musculus	Metazoa	378	True	4
+13250	Q9LV85	Arabidopsis thaliana	Viridiplantae	564	False	4
+13251	P34087	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	171	False	4
+13252	P46938	Mus musculus	Metazoa	488	False	4
+13255	Q8IH18	Drosophila melanogaster	Metazoa	1010	False	4
+13257	Q9SSA5	Arabidopsis thaliana	Viridiplantae	437	False	4
+13258	P10852	Mus musculus	Metazoa	526	True	4
+13263	Q6WN19	Rattus norvegicus	Metazoa	469	False	4
+13266	Q8GY65	Arabidopsis thaliana	Viridiplantae	343	False	4
+13267	Q8VE70	Mus musculus	Metazoa	212	False	4
+13269	Q9JI99	Mus musculus	Metazoa	430	False	4
+13271	Q03640	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1545	False	4
+13273	Q8CI52	Mus musculus	Metazoa	662	False	4
+13275	Q9D1E5	Mus musculus	Metazoa	489	True	4
+13277	P53192	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	235	True	4
+13278	Q8R2Y0	Mus musculus	Metazoa	336	True	4
+13281	Q6Y5D8	Mus musculus	Metazoa	786	False	4
+13284	Q80ZD3	Mus musculus	Metazoa	593	True	4
+13286	Q91X52	Mus musculus	Metazoa	244	False	4
+13291	A0A1D9BZF0	Mus musculus	Metazoa	507	False	4
+13292	P0C7T6	Mus musculus	Metazoa	687	False	4
+13296	P53226	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	547	False	4
+13303	P20433	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	221	False	4
+13306	Q91YD4	Mus musculus	Metazoa	1506	False	4
+13308	P53817	Rattus norvegicus	Metazoa	160	False	4
+13311	Q6RFZ7	Rattus norvegicus	Metazoa	1039	False	4
+13313	Q9VLP3	Drosophila melanogaster	Metazoa	122	False	4
+13314	O44548	Caenorhabditis elegans	Metazoa	877	False	4
+13315	P32828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	619	False	4
+13317	Q06449	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	215	False	4
+13318	Q96524	Arabidopsis thaliana	Viridiplantae	612	False	4
+13323	Q9I7K0	Drosophila melanogaster	Metazoa	208	False	4
+13325	P22561	Mus musculus	Metazoa	449	False	4
+13328	Q9VWE6	Drosophila melanogaster	Metazoa	2111	False	4
+13329	E9Q236	Mus musculus	Metazoa	1325	False	4
+13333	Q5DTT2	Mus musculus	Metazoa	1024	False	4
+13342	Q80VM7	Mus musculus	Metazoa	985	False	4
+13343	Q8MUJ1	Drosophila melanogaster	Metazoa	415	True	4
+13351	Q62769	Rattus norvegicus	Metazoa	1622	False	4
+13354	Q9CWR0	Mus musculus	Metazoa	618	False	4
+13357	O55242	Mus musculus	Metazoa	223	True	4
+13359	O04209	Arabidopsis thaliana	Viridiplantae	258	False	4
+13360	P34164	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	415	False	4
+13363	Q06389	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	190	False	4
+13364	Q99JZ7	Mus musculus	Metazoa	461	False	4
+13369	F4JZG9	Arabidopsis thaliana	Viridiplantae	384	False	4
+13370	P56780	Arabidopsis thaliana	Viridiplantae	73	True	4
+13372	Q8LDL0	Arabidopsis thaliana	Viridiplantae	231	False	4
+13373	Q9CAC5	Arabidopsis thaliana	Viridiplantae	191	True	4
+13377	P08456	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	276	True	4
+13379	Q09601	Caenorhabditis elegans	Metazoa	381	False	4
+13382	P70372	Mus musculus	Metazoa	326	False	4
+13385	P13231	Dictyostelium discoideum	other	118	False	4
+13391	P53067	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1004	False	4
+13397	P56778	Arabidopsis thaliana	Viridiplantae	473	True	4
+13399	Q7Y220	Arabidopsis thaliana	Viridiplantae	649	False	4
+13400	Q84VQ4	Arabidopsis thaliana	Viridiplantae	218	False	4
+13408	P53886	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1748	False	4
+13409	P17898	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	393	True	4
+13412	Q95U54	Drosophila melanogaster	Metazoa	959	False	4
+13413	Q9W1C5	Drosophila melanogaster	Metazoa	2053	False	4
+13421	P70169	Mus musculus	Metazoa	412	False	4
+13423	Q12038	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1033	False	4
+13425	Q99JB8	Mus musculus	Metazoa	424	False	4
+13427	F4I3V6	Arabidopsis thaliana	Viridiplantae	192	False	4
+13430	Q9LEX1	Arabidopsis thaliana	Viridiplantae	510	True	4
+13431	Q9W1F4	Drosophila melanogaster	Metazoa	616	False	4
+13432	Q01560	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	414	False	4
+13433	Q21227	Caenorhabditis elegans	Metazoa	1188	False	4
+13435	Q9JKY0	Mus musculus	Metazoa	299	False	4
+13446	O81208	Arabidopsis thaliana	Viridiplantae	110	True	4
+13448	Q0WUA3	Arabidopsis thaliana	Viridiplantae	382	False	4
+13449	Q6NKS4	Arabidopsis thaliana	Viridiplantae	258	False	4
+13450	Q9S713	Arabidopsis thaliana	Viridiplantae	562	False	4
+13451	Q9SMS0	Arabidopsis thaliana	Viridiplantae	249	False	4
+13452	O88801	Rattus norvegicus	Metazoa	354	False	4
+13455	P04817	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	590	False	4
+13457	P53838	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	576	True	4
+13459	Q06810	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	360	False	4
+13464	Q9JK95	Mus musculus	Metazoa	193	True	4
+13468	F8VPU2	Mus musculus	Metazoa	1048	False	4
+13473	Q24025	Drosophila melanogaster	Metazoa	1038	True	4
+13474	Q3UZP0	Mus musculus	Metazoa	555	False	4
+13476	Q9ER31	Rattus norvegicus	Metazoa	455	True	4
+13477	Q9JL55	Rattus norvegicus	Metazoa	331	True	4
+13482	Q04175	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	944	False	4
+13483	Q7JXF5	Drosophila melanogaster	Metazoa	394	False	4
+13485	Q8WT44	Caenorhabditis elegans	Metazoa	1178	False	4
+13486	Q9JLI8	Mus musculus	Metazoa	962	False	4
+13491	P40087	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	428	False	4
+13492	Q9ES52	Mus musculus	Metazoa	1191	False	4
+13495	Q9LU05	Arabidopsis thaliana	Viridiplantae	168	False	4
+13496	Q9Z1P2	Rattus norvegicus	Metazoa	892	False	4
+13497	P08050	Rattus norvegicus	Metazoa	382	True	4
+13498	Q925N4	Mus musculus	Metazoa	235	True	4
+13499	P25992	Drosophila melanogaster	Metazoa	1002	False	4
+13500	Q9ESV1	Rattus norvegicus	Metazoa	1051	False	4
+13501	E9Q557	Mus musculus	Metazoa	2883	False	4
+13505	Q8VIE6	Mus musculus	Metazoa	465	True	4
+13506	Q9R269	Mus musculus	Metazoa	1755	False	4
+13508	O54942	Mus musculus	Metazoa	218	True	4
+13509	P38755	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	437	False	4
+13513	Q61146	Mus musculus	Metazoa	521	True	4
+13524	A3KPQ7	Danio rerio	Metazoa	1378	True	4
+13525	O88713	Mus musculus	Metazoa	188	True	4
+13526	Q38890	Arabidopsis thaliana	Viridiplantae	621	True	4
+13527	P40458	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	529	False	4
+13528	F6VAN0	Mus musculus	Metazoa	656	False	4
+13529	P14712	Arabidopsis thaliana	Viridiplantae	1122	False	4
+13530	Q56Y52	Arabidopsis thaliana	Viridiplantae	467	False	4
+13531	D3ZKB9	Rattus norvegicus	Metazoa	1072	False	4
+13532	P40069	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1113	False	4
+13534	A2AKX3	Mus musculus	Metazoa	2646	False	4
+13538	Q058N4	Arabidopsis thaliana	Viridiplantae	459	False	4
+13541	Q9FEC1	Arabidopsis thaliana	Viridiplantae	172	False	4
+13549	P40237	Mus musculus	Metazoa	266	True	4
+13552	Q9JJY3	Mus musculus	Metazoa	655	False	4
+13553	Q9QX75	Rattus norvegicus	Metazoa	687	True	4
+13555	P46951	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	817	False	4
+13556	Q60610	Mus musculus	Metazoa	1591	False	4
+13559	P31414	Arabidopsis thaliana	Viridiplantae	770	True	4
+13560	Q04705	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	352	True	4
+13563	O54957	Mus musculus	Metazoa	242	True	4
+13564	P24389	Rattus norvegicus	Metazoa	257	True	4
+13566	Q07950	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	538	True	4
+13567	Q18321	Caenorhabditis elegans	Metazoa	482	True	4
+13569	Q6PE84	Mus musculus	Metazoa	287	True	4
+13570	Q7TS55	Mus musculus	Metazoa	173	True	4
+13571	Q9JHL0	Mus musculus	Metazoa	203	True	4
+13572	Q9JM80	Rattus norvegicus	Metazoa	424	True	4
+13578	P25618	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	953	True	4
+13585	G5EGA3	Caenorhabditis elegans	Metazoa	704	False	4
+13587	Q56XY2	Arabidopsis thaliana	Viridiplantae	298	False	4
+13593	Q6PEM8	Mus musculus	Metazoa	459	True	4
+13595	P22893	Mus musculus	Metazoa	319	False	4
+13596	Q03898	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	291	False	4
+13598	A2AAJ9	Mus musculus	Metazoa	8886	False	4
+13599	Q80U87	Mus musculus	Metazoa	1080	False	4
+13600	F4JS25	Arabidopsis thaliana	Viridiplantae	1052	False	4
+13603	Q925G0	Rattus norvegicus	Metazoa	155	False	4
+13605	Q9SZ15	Arabidopsis thaliana	Viridiplantae	421	False	4
+13609	P59648	Mus musculus	Metazoa	80	True	4
+13612	Q8K5A9	Rattus norvegicus	Metazoa	228	True	4
+13614	Q9Z158	Rattus norvegicus	Metazoa	301	False	4
+13617	A2VEY9	Drosophila melanogaster	Metazoa	693	True	4
+13618	O54693	Mus musculus	Metazoa	391	True	4
+13619	P13638	Rattus norvegicus	Metazoa	290	True	4
+13625	Q8K299	Mus musculus	Metazoa	491	True	4
+13627	Q9EQR5	Mus musculus	Metazoa	269	True	4
+13634	P38873	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1557	False	4
+13635	P40061	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1430	False	4
+13637	Q08236	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1176	False	4
+13638	Q08921	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	799	False	4
+13644	G5EDW5	Caenorhabditis elegans	Metazoa	952	False	4
+13647	Q9ESM6	Mus musculus	Metazoa	539	True	4
+13652	O35613	Mus musculus	Metazoa	739	False	4
+13653	Q9S814	Arabidopsis thaliana	Viridiplantae	1294	True	4
+13654	O08774	Rattus norvegicus	Metazoa	1387	False	4
+13655	O45952	Caenorhabditis elegans	Metazoa	249	False	4
+13657	Q9D0Z3	Mus musculus	Metazoa	276	False	4
+13659	Q9XUB3	Caenorhabditis elegans	Metazoa	781	False	4
+13660	Q54T86	Dictyostelium discoideum	other	568	False	4
+13664	Q8L4R0	Arabidopsis thaliana	Viridiplantae	350	False	4
+13668	P97838	Rattus norvegicus	Metazoa	977	False	4
+13670	Q42342	Arabidopsis thaliana	Viridiplantae	134	False	4
+13671	Q6DBR6	Danio rerio	Metazoa	334	False	4
+13672	Q8LPS2	Arabidopsis thaliana	Viridiplantae	670	False	4
+13673	Q8R000	Mus musculus	Metazoa	340	True	4
+13675	Q8R526	Mus musculus	Metazoa	2615	False	4
+13688	Q8BGS1	Mus musculus	Metazoa	731	False	4
+13691	Q9D1N4	Mus musculus	Metazoa	221	True	4
+13694	Q9VN91	Drosophila melanogaster	Metazoa	198	False	4
+13695	Q9WV78	Rattus norvegicus	Metazoa	438	True	4
+13699	Q04749	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	426	False	4
+13705	P40073	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	367	True	4
+13708	Q6XUX1	Mus musculus	Metazoa	927	False	4
+13709	H2L0G5	Caenorhabditis elegans	Metazoa	1367	False	4
+13712	Q7Y1W1	Arabidopsis thaliana	Viridiplantae	527	False	4
+13714	Q93V66	Arabidopsis thaliana	Viridiplantae	226	False	4
+13715	Q94EH2	Arabidopsis thaliana	Viridiplantae	210	True	4
+13719	Q7TMA4	Mus musculus	Metazoa	361	True	4
+13721	Q9C5U1	Arabidopsis thaliana	Viridiplantae	1036	True	4
+13723	Q9WVS6	Mus musculus	Metazoa	464	False	4
+13724	Q84MB5	Arabidopsis thaliana	Viridiplantae	280	True	4
+13725	Q8GWA7	Arabidopsis thaliana	Viridiplantae	349	False	4
+13727	Q9S7D1	Arabidopsis thaliana	Viridiplantae	808	False	4
+13729	P38688	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	640	False	4
+13730	P38770	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	471	False	4
+13731	P12683	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1054	True	4
+13732	Q20745	Caenorhabditis elegans	Metazoa	1111	False	4
+13733	Q23064	Caenorhabditis elegans	Metazoa	1041	False	4
+13735	Q99L90	Mus musculus	Metazoa	462	False	4
+13736	Q9ERH4	Mus musculus	Metazoa	427	False	4
+13737	P23116	Mus musculus	Metazoa	1344	False	4
+13738	Q8R507	Mus musculus	Metazoa	461	True	4
+13739	Q9WVC7	Rattus norvegicus	Metazoa	2314	False	4
+13740	Q9VNS0	Drosophila melanogaster	Metazoa	459	False	4
+13742	P27351	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	700	False	4
+13744	Q8L7N4	Arabidopsis thaliana	Viridiplantae	343	True	4
+13745	Q8LPR8	Arabidopsis thaliana	Viridiplantae	871	False	4
+13746	Q93YN0	Arabidopsis thaliana	Viridiplantae	187	False	4
+13754	A2ASQ1	Mus musculus	Metazoa	1950	True	4
+13758	P28648	Rattus norvegicus	Metazoa	238	True	4
+13764	Q9M3B8	Arabidopsis thaliana	Viridiplantae	597	False	4
+13766	B9DFX7	Arabidopsis thaliana	Viridiplantae	883	False	4
+13771	Q8LBP4	Arabidopsis thaliana	Viridiplantae	462	False	4
+13772	Q949Q5	Arabidopsis thaliana	Viridiplantae	140	True	4
+13777	P35169	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	2470	False	4
+13785	Q8VZB2	Arabidopsis thaliana	Viridiplantae	221	True	4
+13786	Q8I566	Plasmodium falciparum (isolate 3D7)	other	442	False	4
+13787	Q12063	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	375	False	4
+13788	Q62711	Rattus norvegicus	Metazoa	772	False	4
+13789	P39946	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	494	False	4
+13790	Q9ESJ1	Mus musculus	Metazoa	568	False	4
+13792	P36000	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	726	False	4
+13793	P41318	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	303	False	4
+13795	Q00381	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	147	False	4
+13808	Q3ZN08	Mus musculus	Metazoa	260	False	4
+13809	Q9C9T3	Arabidopsis thaliana	Viridiplantae	67	False	4
+13810	Q8GYC7	Arabidopsis thaliana	Viridiplantae	313	False	4
+13812	Q9Z266	Mus musculus	Metazoa	136	False	4
+13816	P0CW70	Mus musculus	Metazoa	773	False	4
+13817	Q18909	Caenorhabditis elegans	Metazoa	319	False	4
+13818	Q54HI5	Dictyostelium discoideum	other	716	False	4
+13820	Q9VLD6	Drosophila melanogaster	Metazoa	315	False	4
+13823	O23166	Arabidopsis thaliana	Viridiplantae	261	False	4
+13826	Q9XFT3	Arabidopsis thaliana	Viridiplantae	224	False	4
+13827	H2L0N8	Caenorhabditis elegans	Metazoa	370	False	4
+13831	Q8K480	Mus musculus	Metazoa	584	True	4
+13839	Q08760	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	435	False	4
+13843	Q62847	Rattus norvegicus	Metazoa	705	False	4
+13846	Q9ES40	Rattus norvegicus	Metazoa	188	True	4
+13849	Q9LTR2	Arabidopsis thaliana	Viridiplantae	381	False	4
+13853	Q19972	Caenorhabditis elegans	Metazoa	270	False	4
+13854	P37090	Rattus norvegicus	Metazoa	638	True	4
+13855	P48608	Drosophila melanogaster	Metazoa	1091	False	4
+13856	Q5WRN1	Caenorhabditis elegans	Metazoa	301	True	4
+13857	Q8R4L0	Mus musculus	Metazoa	259	False	4
+13860	Q9V968	Drosophila melanogaster	Metazoa	218	False	4
+13861	A8DYY6	Drosophila melanogaster	Metazoa	616	False	4
+13865	Q8K0B2	Mus musculus	Metazoa	537	True	4
+13870	Q17635	Caenorhabditis elegans	Metazoa	590	False	4
+13872	Q9EQN3	Mus musculus	Metazoa	387	False	4
+13873	Q9N4M4	Caenorhabditis elegans	Metazoa	8545	False	4
+13875	Q6WNK7	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	96	False	4
+13876	Q8R3P9	Mus musculus	Metazoa	1054	False	4
+13878	Q9V9V9	Drosophila melanogaster	Metazoa	200	False	4
+13880	Q9LUI2	Arabidopsis thaliana	Viridiplantae	1728	False	4
+13886	Q84ST4	Oryza sativa subsp. japonica	Viridiplantae	343	False	4
+13888	F4I2H7	Arabidopsis thaliana	Viridiplantae	790	False	4
+13894	Q8GSJ6	Arabidopsis thaliana	Viridiplantae	154	True	4
+13896	P97717	Mus musculus	Metazoa	514	True	4
+13897	Q8SAB7	Arabidopsis thaliana	Viridiplantae	1830	False	4
+13901	O61715	Caenorhabditis elegans	Metazoa	454	True	4
+13903	Q2HJ10	Mus musculus	Metazoa	371	True	4
+13906	Q39249	Arabidopsis thaliana	Viridiplantae	462	False	4
+13907	Q9LR64	Arabidopsis thaliana	Viridiplantae	174	False	4
+13908	Q9M903	Arabidopsis thaliana	Viridiplantae	479	False	4
+13909	Q9SGH4	Arabidopsis thaliana	Viridiplantae	220	False	4
+13910	Q9SL05	Arabidopsis thaliana	Viridiplantae	133	False	4
+13911	Q9XI73	Arabidopsis thaliana	Viridiplantae	190	False	4
+13912	P10795	Arabidopsis thaliana	Viridiplantae	180	False	4
+13913	Q93ZB2	Arabidopsis thaliana	Viridiplantae	509	True	4
+13916	Q91ZX6	Mus musculus	Metazoa	588	False	4
+13917	P54256	Rattus norvegicus	Metazoa	629	False	4
+13920	H2KZB2	Caenorhabditis elegans	Metazoa	603	True	4
+13926	P69851	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	72	False	4
+13927	Q06148	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	342	True	4
+13928	Q86BY9	Drosophila melanogaster	Metazoa	1235	False	4
+13929	Q9D067	Mus musculus	Metazoa	708	False	4
+13931	P33419	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	253	False	4
+13935	P53309	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	568	False	4
+13937	Q8T0G4	Drosophila melanogaster	Metazoa	629	False	4
+13939	Q9VIF5	Drosophila melanogaster	Metazoa	981	False	4
+13942	Q21776	Caenorhabditis elegans	Metazoa	987	False	4
+13943	Q9C7S0	Arabidopsis thaliana	Viridiplantae	295	False	4
+13945	O23680	Arabidopsis thaliana	Viridiplantae	297	True	4
+13947	Q9FK13	Arabidopsis thaliana	Viridiplantae	272	False	4
+13949	P34225	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	687	False	4
+13953	O88735	Mus musculus	Metazoa	730	False	4
+13961	P25856	Arabidopsis thaliana	Viridiplantae	396	False	4
+13962	Q8LDU4	Arabidopsis thaliana	Viridiplantae	319	False	4
+13963	Q9FFZ1	Arabidopsis thaliana	Viridiplantae	484	False	4
+13964	Q9FIG9	Arabidopsis thaliana	Viridiplantae	801	False	4
+13965	Q9FN48	Arabidopsis thaliana	Viridiplantae	387	False	4
+13966	Q9LY74	Arabidopsis thaliana	Viridiplantae	338	False	4
+13970	Q9S9N6	Arabidopsis thaliana	Viridiplantae	461	False	4
+13971	Q9T0A4	Arabidopsis thaliana	Viridiplantae	250	False	4
+13972	Q9WTV0	Rattus norvegicus	Metazoa	417	False	4
+13978	P25555	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	427	False	4
+13980	Q80WJ1	Mus musculus	Metazoa	673	False	4
+13982	F4KCE9	Arabidopsis thaliana	Viridiplantae	598	False	4
+13983	Q558Z2	Dictyostelium discoideum	other	905	False	4
+13985	Q8VYD4	Arabidopsis thaliana	Viridiplantae	867	True	4
+13987	O01811	Caenorhabditis elegans	Metazoa	377	True	4
+13988	O35235	Mus musculus	Metazoa	316	True	4
+13990	Q7TP54	Rattus norvegicus	Metazoa	1310	False	4
+13991	G5EC32	Caenorhabditis elegans	Metazoa	1005	False	4
+13993	P46310	Arabidopsis thaliana	Viridiplantae	446	False	4
+13994	P56765	Arabidopsis thaliana	Viridiplantae	488	False	4
+13997	Q8VY16	Arabidopsis thaliana	Viridiplantae	819	False	4
+13999	Q9FI46	Arabidopsis thaliana	Viridiplantae	269	True	4
+14000	Q9M158	Arabidopsis thaliana	Viridiplantae	466	False	4
+14002	P35734	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	292	False	4
+14003	P38863	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	823	False	4
+14005	P53267	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	343	False	4
+14006	Q06833	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	770	True	4
+14011	Q05175	Rattus norvegicus	Metazoa	220	False	4
+14016	P41046	Drosophila melanogaster	Metazoa	550	False	4
+14017	Q9FG37	Arabidopsis thaliana	Viridiplantae	838	False	4
+14019	A0A5F8MPU3	Mus musculus	Metazoa	2282	False	4
+14025	Q9TW65	Caenorhabditis elegans	Metazoa	3674	False	4
+14026	B2RPY5	Mus musculus	Metazoa	545	True	4
+14027	Q8CG64	Mus musculus	Metazoa	494	True	4
+14031	Q9C8H3	Arabidopsis thaliana	Viridiplantae	776	False	4
+14034	Q9V6L9	Drosophila melanogaster	Metazoa	255	False	4
+14035	F4JT76	Arabidopsis thaliana	Viridiplantae	1034	False	4
+14037	Q06604	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	576	False	4
+14040	Q921W0	Mus musculus	Metazoa	196	False	4
+14041	P53983	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	676	True	4
+14043	Q9QWV4	Mus musculus	Metazoa	267	False	4
+14044	Q12142	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	997	False	4
+14046	O08586	Mus musculus	Metazoa	403	False	4
+14047	O70433	Mus musculus	Metazoa	279	False	4
+14049	Q8CJF7	Mus musculus	Metazoa	2243	False	4
+14051	O22788	Arabidopsis thaliana	Viridiplantae	236	False	4
+14053	Q09967	Caenorhabditis elegans	Metazoa	551	True	4
+14054	Q18807	Caenorhabditis elegans	Metazoa	339	True	4
+14055	Q3U284	Mus musculus	Metazoa	315	True	4
+14057	Q6PCQ0	Mus musculus	Metazoa	778	False	4
+14061	A2T1U1	Brassica oleracea var. botrytis	Viridiplantae	305	False	4
+14064	Q9MBA2	Arabidopsis thaliana	Viridiplantae	326	False	4
+14066	Q9SK50	Arabidopsis thaliana	Viridiplantae	539	False	4
+14067	Q9XII1	Arabidopsis thaliana	Viridiplantae	307	False	4
+14068	D0Q0Y7	Rattus norvegicus	Metazoa	160	True	4
+14072	Q8RWG2	Arabidopsis thaliana	Viridiplantae	652	False	4
+14073	Q8RWX4	Arabidopsis thaliana	Viridiplantae	611	False	4
+14074	P36131	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	295	False	4
+14075	P38242	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	237	True	4
+14076	P38283	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	698	False	4
+14077	P69850	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	94	False	4
+14078	Q12382	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	290	True	4
+14079	Q55GF9	Dictyostelium discoideum	other	1320	False	4
+14080	Q19404	Caenorhabditis elegans	Metazoa	442	False	4
+14081	P41832	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1953	False	4
+14082	Q6UJY2	Mus musculus	Metazoa	1175	True	4
+14083	Q9QZN9	Rattus norvegicus	Metazoa	360	True	4
+14084	Q9SLD2	Arabidopsis thaliana	Viridiplantae	520	False	4
+14088	Q8R0W0	Mus musculus	Metazoa	6548	False	4
+14093	P36094	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	363	False	4
+14095	Q99PD6	Rattus norvegicus	Metazoa	461	False	4
+14096	Q9C811	Arabidopsis thaliana	Viridiplantae	1495	False	4
+14100	Q8VHW8	Rattus norvegicus	Metazoa	275	True	4
+14102	F4I8I0	Arabidopsis thaliana	Viridiplantae	596	True	4
+14104	O22806	Arabidopsis thaliana	Viridiplantae	395	False	4
+14105	P36162	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	133	False	4
+14107	Q03954	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	165	False	4
+14108	P32380	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	944	False	4
+14109	P53540	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	846	False	4
+14110	Q03018	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1630	False	4
+14112	Q61161	Mus musculus	Metazoa	821	False	4
+14119	Q8RXA7	Arabidopsis thaliana	Viridiplantae	1187	False	4
+14120	H2KZH5	Caenorhabditis elegans	Metazoa	621	False	4
+14121	Q3U827	Mus musculus	Metazoa	592	False	4
+14123	Q91YM2	Mus musculus	Metazoa	1499	False	4
+14127	Q5BKR2	Mus musculus	Metazoa	547	True	4
+14128	Q9LD43	Arabidopsis thaliana	Viridiplantae	769	False	4
+14129	O35671	Mus musculus	Metazoa	200	False	4
+14130	O46385	Bos taurus	Metazoa	2194	False	4
+14131	P34260	Caenorhabditis elegans	Metazoa	603	False	4
+14133	Q28177	Bos taurus	Metazoa	415	False	4
+14134	Q9ERG0	Mus musculus	Metazoa	753	False	4
+14135	O88382	Rattus norvegicus	Metazoa	1277	False	4
+14136	O54931	Mus musculus	Metazoa	1089	False	4
+14137	Q9CQP8	Mus musculus	Metazoa	194	False	4
+14143	P32336	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	851	False	4
+14144	O04616	Arabidopsis thaliana	Viridiplantae	164	False	4
+14145	Q8CI15	Mus musculus	Metazoa	382	False	4
+14146	Q3KNY0	Mus musculus	Metazoa	2849	False	4
+14150	Q61097	Mus musculus	Metazoa	873	False	4
+14152	Q6S5G3	Arabidopsis thaliana	Viridiplantae	793	False	4
+14157	Q9QVP9	Mus musculus	Metazoa	1009	False	4
+14161	Q3V0B4	Mus musculus	Metazoa	1847	False	4
+14162	A2ALU4	Mus musculus	Metazoa	1481	False	4
+14164	Q9QXN0	Mus musculus	Metazoa	1986	False	4
+14165	P20484	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	414	False	4
+14166	Q91YE8	Mus musculus	Metazoa	1087	False	4
+14173	Q8VDY4	Mus musculus	Metazoa	628	False	4
+14174	P54074	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	624	True	4
+14177	Q9VSB9	Drosophila melanogaster	Metazoa	376	True	4
+14179	Q9VGL8	Drosophila melanogaster	Metazoa	363	False	4
+14181	Q28205	Bos taurus	Metazoa	1199	False	4
+14183	Q42545	Arabidopsis thaliana	Viridiplantae	433	False	4
+14185	Q9XTB5	Caenorhabditis elegans	Metazoa	500	False	4
+14186	Q0WQG8	Arabidopsis thaliana	Viridiplantae	467	True	4
+14188	Q9DCD5	Mus musculus	Metazoa	549	False	4
+14189	Q9VAS7	Drosophila melanogaster	Metazoa	395	True	4
+14190	F4HXY7	Arabidopsis thaliana	Viridiplantae	425	True	4
+14193	Q8BRE0	Mus musculus	Metazoa	195	False	4
+14198	Q9LU93	Arabidopsis thaliana	Viridiplantae	209	False	4
+14200	P38198	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1513	False	4
+14201	P53895	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	289	False	4
+14204	Q12045	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	647	False	4
+14205	G5EGK5	Caenorhabditis elegans	Metazoa	928	False	4
+14207	Q9LDC0	Arabidopsis thaliana	Viridiplantae	365	False	4
+14210	P10080	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	294	False	4
+14211	Q9VJL6	Drosophila melanogaster	Metazoa	138	False	4
+14212	B7Z0I7	Drosophila melanogaster	Metazoa	351	False	4
+14213	Q03455	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	724	True	4
+14214	Q94131	Caenorhabditis elegans	Metazoa	335	False	4
+14215	Q45VK7	Mus musculus	Metazoa	4306	False	4
+14223	Q19131	Caenorhabditis elegans	Metazoa	813	False	4
+14226	P32521	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	1480	False	4
+14229	Q9P804	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	Fungi	548	False	4
+14232	Q04847	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	553	False	4
+14233	Q9FNB0	Arabidopsis thaliana	Viridiplantae	1381	False	4
+14234	P38870	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	785	False	4
+14236	Q9EPA0	Rattus norvegicus	Metazoa	957	False	4
+14237	Q9ES56	Mus musculus	Metazoa	219	False	4
+14243	Q8C0V1	Mus musculus	Metazoa	768	False	4
+14247	Q21443	Caenorhabditis elegans	Metazoa	566	False	4
+14250	Q9D494	Mus musculus	Metazoa	218	False	4
+14252	Q9DAG4	Mus musculus	Metazoa	180	False	4
+14253	Q9I7U4	Drosophila melanogaster	Metazoa	18141	False	4
+14255	P60879	Mus musculus	Metazoa	206	False	4
+14258	P82347	Mus musculus	Metazoa	289	True	4
+14259	P82349	Mus musculus	Metazoa	320	True	4
+14261	O01971	Caenorhabditis elegans	Metazoa	166	False	4
+14262	Q12445	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	299	True	4
+14263	Q23544	Caenorhabditis elegans	Metazoa	508	True	4
+14264	Q8MLV1	Drosophila melanogaster	Metazoa	741	False	4
+14265	Q59RW5	Candida albicans (strain SC5314 / ATCC MYA-2876)	Fungi	493	False	4
+14266	Q61884	Mus musculus	Metazoa	491	False	4
+14268	Q9D992	Mus musculus	Metazoa	256	False	4
+14269	Q9VYX1	Drosophila melanogaster	Metazoa	101	False	4
+14270	A2RTF1	Mus musculus	Metazoa	1109	False	4
+14273	Q64727	Mus musculus	Metazoa	1066	False	4
+14274	Q80W99	Mus musculus	Metazoa	395	True	4
+14280	P32567	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	Fungi	862	False	4
+14281	Q709R6	Drosophila melanogaster	Metazoa	399	False	4
+14282	Q9VVA8	Drosophila melanogaster	Metazoa	78	True	4
+14285	A0A1C3NSL9	Caenorhabditis elegans	Metazoa	1644	False	4
+14288	Q61234	Mus musculus	Metazoa	503	False	4
+14290	Q95QA6	Caenorhabditis elegans	Metazoa	663	False	4
+14293	Q61233	Mus musculus	Metazoa	627	False	4
+14294	Q7SIG6	Mus musculus	Metazoa	958	False	4
+14295	Q923S6	Mus musculus	Metazoa	574	False	4
+14297	E9Q3G8	Mus musculus	Metazoa	1462	False	4
+14299	Q9Z1N1	Rattus norvegicus	Metazoa	339	False	4
+14300	O82245	Arabidopsis thaliana	Viridiplantae	196	True	4

@@ -1,0 +1,220 @@
+	ID	Taxa	Kingdom	Seq_Length	Site	Group
+2348	Q6UWY5	Homo sapiens	Metazoa	402	28	0
+2349	Q6XE38	Homo sapiens	Metazoa	83	21	0
+2350	Q6UW10	Homo sapiens	Metazoa	78	19	0
+2351	Q9NRC9	Homo sapiens	Metazoa	128	17	0
+2352	Q7Z5L0	Homo sapiens	Metazoa	202	24	0
+2353	P01174	Rattus norvegicus	Metazoa	137	19	0
+2357	Q8MJV4	Bos taurus	Metazoa	122	24	0
+2358	Q9Z0M9	Mus musculus	Metazoa	193	28	0
+2360	A9UGV5	Oryza sativa subsp. japonica	Viridiplantae	68	30	0
+2366	Q27967	Bos taurus	Metazoa	203	23	0
+2368	D3Z9M3	Rattus norvegicus	Metazoa	109	16	0
+2369	O62644	Bos taurus	Metazoa	151	18	0
+2372	Q10ST8	Oryza sativa subsp. japonica	Viridiplantae	96	27	0
+2374	Q6ASY2	Oryza sativa subsp. japonica	Viridiplantae	178	26	0
+2379	P09586	Mus musculus	Metazoa	222	31	0
+2380	P29421	Oryza sativa subsp. japonica	Viridiplantae	200	22	0
+2381	P55955	Caenorhabditis elegans	Metazoa	132	19	0
+2382	Q653V7	Oryza sativa subsp. japonica	Viridiplantae	885	33	0
+2383	Q6Z232	Oryza sativa subsp. japonica	Viridiplantae	146	42	0
+2384	A9UGV6	Oryza sativa subsp. japonica	Viridiplantae	61	26	0
+2388	P05367	Mus musculus	Metazoa	122	19	0
+2389	P15270	Dictyostelium discoideum	other	424	23	0
+2390	P25068	Bos taurus	Metazoa	64	26	0
+2392	P81623	Bos taurus	Metazoa	258	29	0
+2394	Q20224	Caenorhabditis elegans	Metazoa	161	19	0
+2397	A0A023W145	Ethmostigmus rubripes	Metazoa	88	24	0
+2402	B9A8D7	Crassostrea virginica	Metazoa	85	18	0
+2407	O00105	Aspergillus niger	Fungi	564	19	0
+2408	O14412	Orpinomyces sp. (strain PC-2)	Fungi	245	29	0
+2409	O62605	Galleria mellonella	Metazoa	218	16	0
+2416	P01538	Viscum album	Viridiplantae	111	26	0
+2418	P04706	Zea mays	Viridiplantae	223	19	0
+2420	P07529	Naganishia albida	Fungi	332	21	0
+2421	P07712	Aplysia californica	Metazoa	112	23	0
+2423	P0DL40	Vespa magnifica	Metazoa	67	21	0
+2426	P0DPU8	Scolopendra dehaani	Metazoa	105	24	0
+2427	P0DQB8	Scolopendra dehaani	Metazoa	73	20	0
+2428	P0DSJ6	Myrmecia gulosa	Metazoa	62	24	0
+2430	P10675	Schistocerca americana	Metazoa	662	24	0
+2433	P13691	Hordeum vulgare	Viridiplantae	152	30	0
+2441	P20462	Notamacropus eugenii	Metazoa	176	18	0
+2444	P27275	Amaranthus caudatus	Viridiplantae	86	25	0
+2448	P43077	Candida albicans	Fungi	562	22	0
+2453	P80961	Myoxocephalus octodecemspinosus	Metazoa	128	20	0
+2457	P81999	Canis lupus familiaris	Metazoa	358	22	0
+2458	P82143	Gloydius brevicaudus siniticus	Metazoa	200	19	0
+2459	P83234	Ophiophagus hannah	Metazoa	190	20	0
+2464	P86929	Metaphire guillelmi	Metazoa	73	14	0
+2466	Q00945	Lymnaea stagnalis	Metazoa	155	26	0
+2467	Q02126	Hordeum vulgare	Viridiplantae	330	25	0
+2472	Q06KA2	Phlebotomus duboscqi	Metazoa	249	19	0
+2474	Q08738	Bombyx mori	Metazoa	239	16	0
+2475	Q09117	Populus deltoides	Viridiplantae	312	24	0
+2478	Q24824	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	other	96	19	0
+2479	Q25589	Faxonius limosus	Metazoa	135	26	0
+2482	Q29381	Sus scrofa	Metazoa	439	25	0
+2483	Q4WZ11	Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293)	Fungi	87	19	0
+2488	Q8JFQ0	Bombina maxima	Metazoa	96	19	0
+2489	Q8MI35	Sus scrofa	Metazoa	152	32	0
+2491	Q8MVA6	Ixodes scapularis	Metazoa	69	23	0
+2492	Q8T4J9	Manduca sexta	Metazoa	180	15	0
+2493	Q8WQK0	Cotesia rubecula	Metazoa	65	23	0
+2501	Q9PVW8	Silurus asotus	Metazoa	308	23	0
+2503	Q9SLP4	Tulipa saxatilis subsp. bakeri	Viridiplantae	314	26	0
+2505	A0A1S6EK92	Moringa oleifera	Viridiplantae	79	20	0
+2506	A4LAR6	Grifola frondosa	Fungi	107	24	0
+2507	A7L035	Chironex fleckeri	Metazoa	456	20	0
+2515	F2QXM5	Komagataella phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1)	Fungi	587	19	0
+2519	P01364	Aplysia californica	Metazoa	108	23	0
+2533	P0DPZ2	Scolopendra dehaani	Metazoa	101	23	0
+2535	P10562	Canavalia gladiata	Viridiplantae	445	26	0
+2537	P14214	Tachypleus tridentatus	Metazoa	77	23	0
+2539	P14946	Lolium perenne	Viridiplantae	263	23	0
+2542	P22327	Trichoplusia ni	Metazoa	624	18	0
+2547	P25404	Mirabilis jalapa	Viridiplantae	63	27	0
+2549	P26780	Sinapis alba	Viridiplantae	99	30	0
+2550	P31420	Manduca sexta	Metazoa	274	18	0
+2557	P45590	Hyalophora cecropia	Metazoa	129	17	0
+2558	P49125	Latrodectus tredecimguttatus	Metazoa	88	18	0
+2560	P58912	Phyllodiscus semoni	Metazoa	488	21	0
+2563	P80915	Macadamia integrifolia	Viridiplantae	102	26	0
+2565	P83472	Lumbricus terrestris	Metazoa	86	22	0
+2573	Q02942	Blaberus discoidalis	Metazoa	726	16	0
+2580	Q6IV20	Gallus gallus	Metazoa	104	22	0
+2581	Q6T6C2	Theromyzon tessulatum	Metazoa	97	22	0
+2585	Q867W1	Procambarus clarkii	Metazoa	76	27	0
+2586	Q8HYA9	Sus scrofa	Metazoa	185	20	0
+2591	Q90WJ9	Takifugu pardalis	Metazoa	391	20	0
+2596	Q9UAH3	Pinctada fucata	Metazoa	129	23	0
+2602	B0JFB8	Antheraea mylitta	Metazoa	105	19	0
+2609	E0XKJ8	Tabanus yao	Metazoa	256	16	0
+2614	I6S390	Scolopendra mutilans	Metazoa	76	22	0
+2615	O76537	Trichoplusia ni	Metazoa	182	16	0
+2616	P00719	Struthio camelus	Metazoa	204	19	0
+2618	P02896	Trypanosoma brucei brucei	other	526	33	0
+2619	P03998	Limulus polyphemus	Metazoa	195	20	0
+2623	P0DPU3	Scolopendra dehaani	Metazoa	577	25	0
+2625	P0DUQ6	Conus planorbis	Metazoa	70	21	0
+2626	P0DUS7	Doratifera vulnerans	Metazoa	56	19	0
+2627	P11919	Manduca sexta	Metazoa	88	26	0
+2631	P15570	Phytophthora cryptogea	other	118	20	0
+2633	P18684	Protophormia terraenovae	Metazoa	101	18	0
+2634	P20797	Antheraea polyphemus	Metazoa	163	21	0
+2635	P21814	Ovis aries	Metazoa	429	25	0
+2636	P26202	Oryctolagus cuniculus	Metazoa	137	20	0
+2637	P28770	Oncorhynchus mykiss	Metazoa	221	21	0
+2640	P34951	Hordeum vulgare	Viridiplantae	143	24	0
+2642	P35777	Solenopsis invicta	Metazoa	137	19	0
+2647	P55847	Penaeus japonicus	Metazoa	105	28	0
+2650	P68248	Gallus gallus	Metazoa	80	25	0
+2652	P69770	Conus marmoreus	Metazoa	94	25	0
+2654	P80686	Tenebrio molitor	Metazoa	211	16	0
+2656	P81295	Juniperus ashei	Viridiplantae	225	26	0
+2657	P81511	Hirudo medicinalis	Metazoa	81	15	0
+2658	P82103	Mytilus galloprovincialis	Metazoa	96	20	0
+2659	P86009	Dromaius novaehollandiae	Metazoa	238	17	0
+2660	P91745	Lucilia cuprina	Metazoa	375	20	0
+2663	Q03383	Bombyx mori	Metazoa	400	16	0
+2667	Q25055	Holotrichia diomphalia	Metazoa	104	20	0
+2668	Q25255	Lucilia cuprina	Metazoa	356	23	0
+2670	Q27270	Tenebrio molitor	Metazoa	96	18	0
+2671	Q39688	Daucus carota	Viridiplantae	389	24	0
+2673	Q42656	Coffea arabica	Viridiplantae	378	15	0
+2674	Q43413	Capsicum annuum	Viridiplantae	75	27	0
+2677	Q56S59	Nicotiana tabacum	Viridiplantae	150	23	0
+2678	Q5D710	Scylla serrata	Metazoa	126	24	0
+2679	Q5G8A6	Tityus costatus	Metazoa	87	19	0
+2680	Q64HC7	Armadillidium vulgare	Metazoa	73	19	0
+2681	Q6F4C6	Pinctada fucata	Metazoa	121	16	0
+2683	Q6T6C1	Theromyzon tessulatum	Metazoa	107	21	0
+2688	Q86R84	Dermatophagoides farinae	Metazoa	462	25	0
+2692	Q9NBW4	Theromyzon tessulatum	Metazoa	101	19	0
+2694	Q9ZT66	Zea mays	Viridiplantae	303	43	0
+2695	A0A1W6EVM7	Ampulex compressa	Metazoa	50	26	0
+2700	C0HLA0	Chamaecyparis obtusa	Viridiplantae	556	28	0
+2707	K9N4Q4	Phlebotomus papatasi	Metazoa	246	23	0
+2716	P02230	Chironomus thummi thummi	Metazoa	151	15	0
+2719	P07439	Megabalanus rosa	Metazoa	162	24	0
+2720	P07457	Zoarces americanus	Metazoa	87	22	0
+2721	P0C1X6	Tityus discrepans	Metazoa	62	26	0
+2725	P0DQE1	Scolopendra dehaani	Metazoa	109	23	0
+2726	P0DUS5	Doratifera vulnerans	Metazoa	57	24	0
+2727	P0DUT0	Doratifera vulnerans	Metazoa	46	19	0
+2734	P23438	Canis lupus familiaris	Metazoa	183	17	0
+2738	P31608	Sagittaria sagittifolia	Viridiplantae	181	24	0
+2739	P33577	Petromyzon marinus	Metazoa	119	19	0
+2743	P39037	Sus scrofa	Metazoa	232	15	0
+2744	P42256	Aspergillus niger	Fungi	321	19	0
+2747	P48842	Aspergillus aculeatus	Fungi	350	16	0
+2750	P67788	Manduca sexta	Metazoa	65	19	0
+2751	P80392	Meleagris gallopavo	Metazoa	64	28	0
+2752	P81492	Hirudinaria manillensis	Metazoa	84	20	0
+2753	P82187	Equus caballus	Metazoa	185	20	0
+2756	Q01528	Limulus polyphemus	Metazoa	172	19	0
+2759	Q09022	Xenopus laevis	Metazoa	84	18	0
+2761	Q27441	Aplysia californica	Metazoa	92	21	0
+2764	Q40975	Papaver rhoeas	Viridiplantae	139	19	0
+2767	Q43871	Hordeum vulgare	Viridiplantae	115	25	0
+2768	Q50KB1	Emiliania huxleyi	other	223	17	0
+2769	Q589G4	Anoplius samariensis	Metazoa	75	17	0
+2771	Q5GQ85	Argas reflexus	Metazoa	159	16	0
+2774	Q70SU7	Salvelinus alpinus	Metazoa	342	19	0
+2776	Q7Z0T3	Aplysia californica	Metazoa	125	22	0
+2778	Q8J0D2	Geotrichum sp. (strain M128)	Fungi	812	23	0
+2781	Q95UE8	Lucilia cuprina	Metazoa	220	19	0
+2787	A7VN15	Protobothrops flavoviridis	Metazoa	79	19	0
+2794	G9M8X1	Nephotettix cincticeps	Metazoa	687	19	0
+2797	O96059	Bombyx mori	Metazoa	66	24	0
+2798	P01076	Solanum lycopersicum	Viridiplantae	77	32	0
+2804	P08375	Sarcophaga peregrina	Metazoa	63	23	0
+2809	P0DPU7	Scolopendra dehaani	Metazoa	78	25	0
+2810	P0DPU9	Myrmecia gulosa	Metazoa	67	25	0
+2814	P0DQC1	Scolopendra dehaani	Metazoa	92	20	0
+2815	P0DUS8	Doratifera vulnerans	Metazoa	59	17	0
+2818	P14217	Chlamydomonas reinhardtii	Viridiplantae	647	21	0
+2826	P23044	Robillarda sp. (strain Y-20)	Fungi	385	17	0
+2830	P27613	Trichostrongylus colubriformis	Metazoa	173	15	0
+2832	P31419	Manduca sexta	Metazoa	161	20	0
+2835	P35578	Zootoca vivipara	Metazoa	172	21	0
+2837	P55057	Oryctolagus cuniculus	Metazoa	124	27	0
+2841	P81941	Pseudopleuronectes americanus	Metazoa	68	22	0
+2844	P83508	Cavia porcellus	Metazoa	170	16	0
+2849	Q06K61	Phlebotomus duboscqi	Metazoa	516	20	0
+2851	Q06KA5	Phlebotomus duboscqi	Metazoa	142	20	0
+2854	Q29W25	Crocus sativus	Viridiplantae	168	26	0
+2856	Q53B52	Ophiophagus hannah	Metazoa	78	21	0
+2864	Q8MUP7	Ixodes scapularis	Metazoa	102	21	0
+2867	Q9GSA4	Galleria mellonella	Metazoa	113	19	0
+2869	Q9LLT1	Juniperus virginiana	Viridiplantae	367	21	0
+2874	W1I921	Achatina achatina	Metazoa	184	26	0
+2883	P82384	Drosophila melanogaster	Metazoa	92	16	0
+2886	P81827	Rattus norvegicus	Metazoa	101	21	0
+2891	P15450	Apis mellifera	Metazoa	53	19	0
+2892	P21978	Leishmania amazonensis	other	476	32	0
+2893	P27919	Avena sativa	Viridiplantae	214	28	0
+2896	Q8MMH0	Pimpla hypochondriaca	Metazoa	109	21	0
+2897	Q8T0W1	Pimpla hypochondriaca	Metazoa	115	22	0
+2898	Q8T0W3	Pimpla hypochondriaca	Metazoa	63	25	0
+2899	Q8T113	Bombyx mori	Metazoa	227	17	0
+2901	A0A0F7YYX3	Conus victoriae	Metazoa	196	25	0
+2905	P86872	Margaritifera margaritifera	Metazoa	260	19	0
+2907	Q7Z1K3	Anisakis simplex	Metazoa	194	23	0
+2910	B3STN7	Nosema bombycis (strain CQ1 / CVCC 102059)	Fungi	316	18	0
+2911	O02380	Tyrophagus putrescentiae	Metazoa	141	15	0
+2912	O76192	Galleria mellonella	Metazoa	167	17	0
+2913	P43174	Ambrosia psilostachya	Viridiplantae	77	22	0
+2914	Q0ZS87	Phlebotomus perniciosus	Metazoa	393	18	0
+2916	Q9TT95	Sus scrofa	Metazoa	120	22	0
+2918	B3STN5	Nosema bombycis (strain CQ1 / CVCC 102059)	Fungi	278	19	0
+2919	E0X9F6	Thaumetopoea pityocampa	Metazoa	126	18	0
+2920	P05560	Dromaius novaehollandiae	Metazoa	207	23	0
+2921	P0DMD3	Scolopendra mutilans	Metazoa	105	21	0
+2922	P42579	Lymnaea stagnalis	Metazoa	100	23	0
+2924	Q00802	Bombyx mori	Metazoa	256	17	0
+2927	Q39962	Hevea brasiliensis	Viridiplantae	238	31	0
+2928	Q7M3V1	Chelonus sp. nr. curvimaculatus	Metazoa	246	20	0
+2929	Q8MMH5	Pimpla hypochondriaca	Metazoa	61	20	0
+2933	I6RA76	Scolopendra mutilans	Metazoa	64	18	0
+2935	P91629	Drosophila miranda	Metazoa	126	16	0
