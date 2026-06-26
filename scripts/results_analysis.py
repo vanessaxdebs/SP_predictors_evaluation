@@ -36,6 +36,10 @@ def plot_sequence_logo(data, path):
         sequences=cleaned_sequences,
         to_type='counts'  # Get raw counts of each residue at each position
     )
+    # logomaker writes float probabilities back into this matrix during the
+    # counts->information transform; recent pandas rejects that in-place write
+    # on an integer frame, so make the counts float first.
+    pfm_df = pfm_df.astype(float)
     icm_df = lm.transform_matrix(
         pfm_df,
         from_type='counts',
