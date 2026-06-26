@@ -5,6 +5,7 @@ from scripts import (
     pswm_training_set_preparation,
     pswm,
     svm,
+    ffnn,
     results_analysis,
 )
 
@@ -15,4 +16,5 @@ if __name__ == '__main__':
     pswm_training_set_preparation.main()
     pswm.main()
     svm.main()
+    ffnn.main()
     results_analysis.main()
