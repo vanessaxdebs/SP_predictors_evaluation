@@ -1,0 +1,3 @@
+Model	FP	FN	TM_fraction_in_FP	TM_enrichment_vs_base
+von Heijne PSWM	86	50	0.57	4.7
+SVM	25	37	0.44	3.63

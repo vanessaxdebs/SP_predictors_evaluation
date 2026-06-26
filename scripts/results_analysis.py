@@ -6,28 +6,24 @@ import numpy as np
 import logomaker as lm
 import matplotlib.pyplot as plt
 
-def extract_fp_df(df):
-    df = df[df["Prediction"] == 1]
-    df = df[df["Class"] == 0]
-    return df[['ID', 'Class', 'Prediction']]
-
 def extract_fn_df(df):
     df = df[df["Prediction"] == 0]
     df = df[df["Class"] == 1]
     return df[['ID', 'Class', 'Prediction', 'SP_15']]
 
-def assign_tm(df, neg_df):
-    merged_df = pd.merge(df, neg_df, on='ID')
-    return merged_df[['ID', 'Class', 'Prediction', 'TM']]
-
-def get_tm_fraction(df, neg_df):
-    # FP dataframes
-    FP_predictions = extract_fp_df(df)
-
-    # Add TM column
-    FP_predictions_w_tm = assign_tm(FP_predictions, neg_df)
-
-    return FP_predictions_w_tm.TM.value_counts(normalize=True)[True]
+def fp_summary_row(name, df, neg_df, tm_base_rate):
+    # Quantify the false positives of one model and how enriched they are in
+    # transmembrane proteins relative to the negative-set base rate.
+    fp = df[(df["Prediction"] == 1) & (df["Class"] == 0)]
+    fn = df[(df["Prediction"] == 0) & (df["Class"] == 1)]
+    tm = pd.merge(fp[["ID"]], neg_df[["ID", "TM"]], on="ID", how="left")["TM"].mean()
+    return {
+        "Model": name,
+        "FP": len(fp),
+        "FN": len(fn),
+        "TM_fraction_in_FP": round(float(tm), 3),
+        "TM_enrichment_vs_base": round(float(tm) / tm_base_rate, 2),
+    }
 
 def plot_sequence_logo(data, path):
     cleaned_sequences = data.str.replace('X', '-', regex=False)
@@ -76,10 +72,18 @@ def main():
     neg_df = pd.read_csv(f"{config.config['data_collection_dir']}/negative.tsv", sep="\t")
     neg_df.columns = ['ID', 'Taxa', 'Kingdom', 'Seq_length', 'TM']
 
-    # Calculate TM fractions
-    svm_fp_tm_fraction = get_tm_fraction(svm_predictions, neg_df)
-    pswm_fp_tm_fraction = get_tm_fraction(pswm_predictions, neg_df)
-    # TODO plot
+    # Quantify false positives and their transmembrane enrichment for both models
+    tm_base_rate = neg_df['TM'].mean()
+    fp_summary = pd.DataFrame([
+        fp_summary_row("von Heijne PSWM", pswm_predictions, neg_df, tm_base_rate),
+        fp_summary_row("SVM", svm_predictions, neg_df, tm_base_rate),
+    ])
+    fp_summary.to_csv(
+        f"{config.config['results_analysis_dir']}/fp_tm_summary.tsv",
+        sep="\t", index=False,
+    )
+    print(f"TM base rate among negatives: {tm_base_rate*100:.1f}%")
+    print(fp_summary.to_string(index=False))
 
     # Compare sequence logos of PSWM FN
     pswm_fn = extract_fn_df(pswm_predictions)
