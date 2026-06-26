@@ -328,6 +328,26 @@ def plot_confusion_matrix(y_true, y_pred, title):
     plt.clf()
 
 
+def save_gini_barplot(gini_df, title, path):
+    plt.figure()
+    colors = plt.cm.viridis(np.linspace(0, 1, 20))
+    plt.barh(gini_df["feature"].head(20)[::-1], gini_df["importance"].head(20)[::-1], color=colors)
+    plt.xlabel("Gini importance")
+    plt.ylabel("Features")
+    plt.title(title)
+    plt.savefig(path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
+    plt.clf()
+
+def save_mcc_curve(ks, mcc_curve, title, path):
+    plt.figure()
+    plt.plot(ks, mcc_curve, marker="o", color=plt.cm.viridis(0.9))
+    plt.xlabel("k (top features by RF Gini)")
+    plt.ylabel("Validation MCC score (SVM)")
+    plt.title(title)
+    plt.grid(True)
+    plt.savefig(path, dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
+    plt.clf()
+
 def main():
     os.makedirs(config.config["svm_dir"], exist_ok=True)
 
@@ -386,23 +406,10 @@ def main():
         gini_df.columns = ["feature", "importance"]
         gini_df.to_csv(f"{config.config['svm_dir']}/Features_gini_" + str(i) + ".tsv", sep="\t", index=False, header=True)
 
-        # Plot top 20
-        plt.figure()
-        colors = plt.cm.viridis(np.linspace(0, 1, 20))
-        plt.barh(gini_df["feature"].head(20)[::-1], gini_df["importance"].head(20)[::-1], color=colors)
-        plt.xlabel("Gini importance")
-        plt.ylabel("Features")
-        plt.title(f"RandomForest Gini Importances (Top 20 - Round {i + 1})")
-        plt.savefig(f"{config.config['svm_dir']}/Top_Features_round{i + 1}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
-        plt.clf()
-        plt.figure()
-        colors = plt.cm.viridis(np.linspace(0, 1, 20))
-        plt.barh(gini_df["feature"].head(20)[::-1], gini_df["importance"].head(20)[::-1], color=colors)
-        plt.xlabel("Gini importance")
-        plt.ylabel("Features")
-        plt.title(f"RandomForest Gini Importances (Top 20 - Round {i + 1})")
-        plt.savefig(f"{config.config['svm_dir']}/top_20_features_{i+1}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
-        plt.clf()
+        # Plot top 20 (two filenames kept for backward compatibility with the report)
+        gini_title = f"RandomForest Gini Importances (Top 20 - Round {i + 1})"
+        save_gini_barplot(gini_df, gini_title, f"{config.config['svm_dir']}/Top_Features_round{i + 1}.pdf")
+        save_gini_barplot(gini_df, gini_title, f"{config.config['svm_dir']}/top_20_features_{i + 1}.pdf")
 
         # Feature selection
         ks = list(range(2, min(30, X_train.shape[1] + 1)))  # keep it small for speed/clarity
@@ -428,23 +435,9 @@ def main():
             f"Best {mcc_idx + 2} features on validation (using baseline SVM hyperparameters): k={len(ks) + 2}, val_mcc={mcc_curve[mcc_idx]:.3f}")
         print("")
 
-        plt.figure()
-        plt.plot(ks, mcc_curve, marker="o", color=plt.cm.viridis(0.9))
-        plt.xlabel("k (top features by RF Gini)")
-        plt.ylabel("Validation MCC score (SVM)")
-        plt.title(f"MCC vs. Number of Selected Features (Validation set - Round {i + 1})")
-        plt.grid(True)
-        plt.savefig(f"{config.config['svm_dir']}/MCC_vs_Val_round{i + 1}.pdf", dpi=1000, format="pdf", bbox_inches="tight", pad_inches=0.2)
-        plt.clf()
-        plt.figure()
-        plt.plot(ks, mcc_curve, marker="o", color=plt.cm.viridis(0.9))
-        plt.xlabel("k (top features by RF Gini)")
-        plt.ylabel("Validation MCC score (SVM)")
-        plt.title(f"MCC vs. Number of Selected Features (Validation set - Round {i + 1})")
-        plt.grid(True)
-        plt.savefig(f"{config.config['svm_dir']}/top_20_features_RF_gini_{i + 1}.pdf", dpi=1000, format="pdf",
-                    bbox_inches="tight", pad_inches=0.2)
-        plt.clf()
+        mcc_title = f"MCC vs. Number of Selected Features (Validation set - Round {i + 1})"
+        save_mcc_curve(ks, mcc_curve, mcc_title, f"{config.config['svm_dir']}/MCC_vs_Val_round{i + 1}.pdf")
+        save_mcc_curve(ks, mcc_curve, mcc_title, f"{config.config['svm_dir']}/top_20_features_RF_gini_{i + 1}.pdf")
 
         # Use the best k from the validation curve
         feature_subset = gini_df["feature"].head(mcc_ks).tolist()

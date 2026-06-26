@@ -16,4 +16,5 @@ config = {
     "positive_prefix": "positive",
     "coverage_threshold": 0.4,
     "min_seq_id": 0.3,
+    "pswm_window": 15,
 }

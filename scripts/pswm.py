@@ -2,12 +2,12 @@ import csv
 import subprocess
 import numpy as np
 import pandas as pd
-from sklearn.metrics import precision_recall_curve, PrecisionRecallDisplay
+from sklearn.metrics import (precision_recall_curve, PrecisionRecallDisplay, accuracy_score,
+                             matthews_corrcoef, precision_score, recall_score, f1_score)
 import seaborn as sns
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-import math
 from config import config
 
 def compute_matrix(
@@ -39,6 +39,9 @@ def compute_matrix(
 
 def compute_score(sequence,  window, pswm, alphabet = "AQLSREKTNGMWDHFYCIPV"):
     seq_len = len(sequence)
+    if seq_len < window:
+        # Too short to score with this window; treat as a non-match.
+        return float('-inf')
     scores = np.zeros(seq_len - window + 1)
 
     for pos in range(seq_len - window + 1):
@@ -85,11 +88,12 @@ def predict(
     df,
     pwsm,
     optimal_threshold,
+    window,
 ):
     df = df.assign(Prediction=None)
 
     for index, row in df.iterrows():
-        score = compute_score(row['Frag_90'], 15, pwsm)
+        score = compute_score(row['Frag_90'], window, pwsm)
         if score >= optimal_threshold:
             df.loc[index, 'Prediction'] = 1
         else:
@@ -111,22 +115,18 @@ def compute_confusion_matrix(df):
       FN +=1
   return TP, FP, FN, TN
 
-def accuracy(TP, FP, FN, TN):
-    return (TP + TN) / (TP + TN + FP + FN)
-
-def mcc(TP, FP, FN, TN):
-    numerator = (TP * TN) - (FP * FN)
-    denominator = math.sqrt((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN))
-    return numerator / denominator if denominator != 0 else 0.0
-
-def recall(TP, FP, FN, TN):
-    return TP / (TP + FN) if (TP + FN) != 0 else 0.0
-
-def precision(TP, FP, FN, TN):
-    return TP / (TP + FP) if (TP + FP) != 0 else 0.0
-
-def f1_score(prec, rec):
-    return 2 * (prec * rec) / (prec + rec) if (prec + rec) != 0 else 0.0
+def compute_metrics(y_true, y_pred):
+    # Metric values from validated scikit-learn implementations, kept in a fixed
+    # order so the saved tables stay consistent across the pipeline.
+    y_true = y_true.astype(int)
+    y_pred = y_pred.astype(int)
+    return {
+        'Accuracy': accuracy_score(y_true, y_pred),
+        'MCC': matthews_corrcoef(y_true, y_pred),
+        'Recall': recall_score(y_true, y_pred, zero_division=0),
+        'Precision': precision_score(y_true, y_pred, zero_division=0),
+        'F1 score': f1_score(y_true, y_pred, zero_division=0),
+    }
 
 def main():
     # Set theme in Seaborn
@@ -137,12 +137,14 @@ def main():
     sns.set_theme(context='notebook', style='white', palette='viridis', font='Liberation Serif', font_scale=1.1)
 
     df = pd.read_csv(f"{config.config['pswm_dir']}/train.tsv", sep = "\t")
+    window = config.config['pswm_window']
 
     # Compute matrix
     group_mask = df['Group'].isin([1,2,3])
     class_mask = df['Class'] == 1
     combined_mask = group_mask & class_mask
     filtered_df = df[combined_mask].copy()
+    assert not filtered_df.empty, "no positive training sequences available to build the PSWM"
     pwsm = compute_matrix(filtered_df['SP_15'], f"{config.config['pswm_dir']}/matrix")
 
     # Compute scores and threshold
@@ -150,13 +152,13 @@ def main():
     sequences = group_4['Frag_90']
     scores = np.array([])
     for seq in sequences:
-        score = compute_score(seq, 15, pwsm)
+        score = compute_score(seq, window, pwsm)
         scores = np.append(scores, score)
 
     threshold, opt_fscore, opt_precision, opt_recall = calc_threshold(group_4, scores, f"{config.config['pswm_dir']}/threshold.pdf")
 
     # Predict
-    df_w_prediction = predict(df[df['Group'] == 5], pwsm, threshold)
+    df_w_prediction = predict(df[df['Group'] == 5], pwsm, threshold, window)
     df_w_prediction[['ID', 'Class', 'Prediction', 'Seq_Length', 'Site', 'Group', 'Frag_90', 'SP_15']].to_csv(
         f"{config.config['pswm_dir']}/prediction.tsv",
         sep='\t',
@@ -164,16 +166,8 @@ def main():
     )
 
     # Calculate metrics
-    metrics_data = []
-    TP, FP, FN, TN = compute_confusion_matrix(df_w_prediction)
-    metrics_data.append(['Accuracy', accuracy(TP, FP, FN, TN)])
-    metrics_data.append(['MCC', mcc(TP, FP, FN, TN)])
-    recall_value = recall(TP, FP, FN, TN)
-    metrics_data.append(['Recall', recall_value])
-    precision_value = precision(TP, FP, FN, TN)
-    metrics_data.append(['Precision', precision_value])
-    metrics_data.append(['F1 score', f1_score(precision_value, recall_value)])
-    pd.DataFrame(metrics_data, columns=["Metric", "Value"]).to_csv(
+    metrics = compute_metrics(df_w_prediction['Class'], df_w_prediction['Prediction'])
+    pd.DataFrame(metrics.items(), columns=["Metric", "Value"]).to_csv(
         f"{config.config['pswm_dir']}/metrics.tsv",
         sep='\t',
         quoting=csv.QUOTE_NONE,
@@ -217,7 +211,7 @@ def main():
         sequences = validation_df['Frag_90']
         validation_scores = np.array([])
         for seq in sequences:
-            score = compute_score(seq, 15, pswm)
+            score = compute_score(seq, window, pswm)
             validation_scores = np.append(validation_scores, score)
 
         threshold, opt_fscore, opt_precision, opt_recall = calc_threshold(validation_df, validation_scores,
@@ -225,20 +219,14 @@ def main():
 
 
         # Calculate metrics
-        df_val_prediction = predict(validation_df, pswm, threshold)
-        TP, FP, FN, TN = compute_confusion_matrix(df_val_prediction)
+        df_val_prediction = predict(validation_df, pswm, threshold, window)
+        m = compute_metrics(df_val_prediction['Class'], df_val_prediction['Prediction'])
 
-        acc = accuracy(TP, FP, FN, TN)
-        rec = recall(TP, FP, FN, TN)
-        prec = precision(TP, FP, FN, TN)
-        f1 = f1_score(prec, rec)
-        MCC = mcc(TP, FP, FN, TN)
-
-        accuracies = np.append(accuracies, acc)
-        recalls = np.append(recalls, rec)
-        precisions = np.append(precisions, prec)
-        f1s = np.append(f1s, f1)
-        mccs = np.append(mccs, MCC)
+        accuracies = np.append(accuracies, m['Accuracy'])
+        recalls = np.append(recalls, m['Recall'])
+        precisions = np.append(precisions, m['Precision'])
+        f1s = np.append(f1s, m['F1 score'])
+        mccs = np.append(mccs, m['MCC'])
         ths = np.append(ths, threshold)
 
     cv_metrics_df = pd.DataFrame(
@@ -267,25 +255,16 @@ def main():
     best_pswm = np.load(f"{config.config['pswm_dir']}/matrix_cv_{iter_id + 1}.npz")
 
     # testing
-    test_df_w_prediction = predict(test_df, best_pswm['arr_0'], best_threshold)
+    test_df_w_prediction = predict(test_df, best_pswm['arr_0'], best_threshold, window)
     test_df_w_prediction[['ID', 'Class', 'Prediction', 'Seq_Length', 'Site', 'Group', 'Frag_90', 'SP_15']].to_csv(
         f"{config.config['pswm_dir']}/test_df_w_prediction.tsv",
         sep='\t',
         quoting=csv.QUOTE_NONE,
     )
-    metrics_data = []
     TP, FP, FN, TN = compute_confusion_matrix(test_df_w_prediction)
-    acc = accuracy(TP, FP, FN, TN)
-    metrics_data.append(['Accuracy', acc])
-    mcc_score = mcc(TP, FP, FN, TN)
-    metrics_data.append(['MCC', mcc_score])
-    recall_value = recall(TP, FP, FN, TN)
-    metrics_data.append(['Recall', recall_value])
-    precision_value = precision(TP, FP, FN, TN)
-    metrics_data.append(['Precision', precision_value])
-    f1_score_value = f1_score(precision_value, recall_value)
-    metrics_data.append(['F1 score', f1_score_value])
-    pd.DataFrame(metrics_data, columns=["Metric", "Value"]).to_csv(
+    metrics = compute_metrics(test_df_w_prediction['Class'], test_df_w_prediction['Prediction'])
+    acc, mcc_score, f1_score_value = metrics['Accuracy'], metrics['MCC'], metrics['F1 score']
+    pd.DataFrame(metrics.items(), columns=["Metric", "Value"]).to_csv(
         f"{config.config['pswm_dir']}/test_df_metrics.tsv",
         sep='\t',
         quoting=csv.QUOTE_NONE,
