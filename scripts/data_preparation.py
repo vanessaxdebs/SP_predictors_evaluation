@@ -40,21 +40,28 @@ def filter_redundant_seq(
 
     return filtered
 
-def train_test_validation_split(df):
+def train_test_validation_split(df, seed=42):
+    # Shuffle with a fixed seed before splitting, so the train/test and fold
+    # assignment do not depend on the input (download/cluster) order and the
+    # split is reproducible. Redundancy is already removed upstream by mmseqs
+    # clustering on the full set, so the shuffled split cannot leak near-
+    # duplicate sequences across train and test.
+    df = df.sample(frac=1, random_state=seed).reset_index(drop=True)
+
     i = int(len(df) * 0.8)
 
-    train = df.iloc[0:i]
-    test = df.iloc[i:]
-    test = test.assign(Group = 0)
+    train = df.iloc[0:i].copy()
+    test = df.iloc[i:].copy()
+    test = test.assign(Group=0)
     train = train.assign(Group=100)
 
     l = [0, int(len(train) * 0.2), int(len(train) * 0.4), int(len(train) * 0.6), int(len(train) * 0.8), len(train)]
 
     validation_sets = []
+    group_col = train.columns.get_loc("Group")
     for n in range(len(l) - 1):
+        train.iloc[l[n]:l[n + 1], group_col] = n + 1
         validation_sets.append(train.iloc[l[n]:l[n + 1]])
-        train["Group"][l[n]:l[n + 1]] = n + 1
-
 
     return train, test, validation_sets
 

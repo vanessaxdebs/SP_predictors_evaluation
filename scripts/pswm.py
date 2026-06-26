@@ -217,7 +217,7 @@ def main():
         sequences = validation_df['Frag_90']
         validation_scores = np.array([])
         for seq in sequences:
-            score = compute_score(seq, 15, pwsm)
+            score = compute_score(seq, 15, pswm)
             validation_scores = np.append(validation_scores, score)
 
         threshold, opt_fscore, opt_precision, opt_recall = calc_threshold(validation_df, validation_scores,
@@ -225,7 +225,7 @@ def main():
 
 
         # Calculate metrics
-        df_val_prediction = predict(validation_df, pwsm, threshold)
+        df_val_prediction = predict(validation_df, pswm, threshold)
         TP, FP, FN, TN = compute_confusion_matrix(df_val_prediction)
 
         acc = accuracy(TP, FP, FN, TN)
@@ -258,10 +258,13 @@ def main():
         quoting=csv.QUOTE_NONE,
     )
 
-    # We pick the threshold from the iteration with the highest f1 score and do testing
+    # We pick the threshold from the iteration with the highest f1 score and do testing.
+    # iter_id is the 0-based row of cv_metrics_df, while the matrices were saved 1-based
+    # (matrix_cv_{i+1}) inside the loop, so the matrix and threshold of the chosen fold
+    # are matrix_cv_{iter_id + 1} and row iter_id respectively.
     iter_id = cv_metrics_df['F1 Score'].idxmax()
-    best_threshold = cv_metrics_df.iloc[cv_metrics_df['F1 Score'].idxmax()]["Threshold"]
-    best_pswm = np.load(f"{config.config['pswm_dir']}/matrix_cv_{iter_id}.npz")
+    best_threshold = cv_metrics_df.iloc[iter_id]["Threshold"]
+    best_pswm = np.load(f"{config.config['pswm_dir']}/matrix_cv_{iter_id + 1}.npz")
 
     # testing
     test_df_w_prediction = predict(test_df, best_pswm['arr_0'], best_threshold)
