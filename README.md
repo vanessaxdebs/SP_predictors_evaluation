@@ -1,7 +1,9 @@
 # SP_predictors_evaluation
 
 ## Intro
-This repository aims to compare two methods of SP prediction
+This repository compares three methods of signal-peptide (SP) prediction: a von Heijne
+position-specific weight matrix (PSWM) baseline, a Support Vector Machine (SVM), and a
+feed-forward neural network (FFNN).
 
 ## Steps
 ### Data Collection
@@ -23,7 +25,7 @@ Final query:
 (existence:1) AND (length:[40 TO *]) AND (reviewed:true) AND (fragment:false) AND (taxonomy_id:2759) AND (ft_signal_exp:*)
 ```
 
- > Number of results (15/11/2025): **2,938**
+ > Number of results (snapshot-dependent): **2,960**
 
 **Negative dataset (Non-secretory proteins, with defined subcellular localization):**
   1. No fragments: Fragment: No (fragment:false)
@@ -39,7 +41,7 @@ Final query:
 (existence:1) AND (length:[40 TO *]) AND (reviewed:true) AND (fragment:false) AND (taxonomy_id:2759) NOT (ft_signal:*) AND ((cc_scl_term_exp:SL-0091) OR (cc_scl_term_exp:SL-0191) OR (cc_scl_term_exp:SL-0173) OR (cc_scl_term_exp:SL-0204) OR (cc_scl_term_exp:SL-0209) OR (cc_scl_term_exp:SL-0039))
 ```
 
- > Number of results (15/11/2025): **20,615**
+ > Number of results (snapshot-dependent): **20,944**
 
 #### b. Filtering the Positive Dataset
 UniProtKB does not directly allow filtering signal peptides by length.
@@ -50,7 +52,7 @@ A custom Python script was implemented to:
 - Retain only proteins with signal peptides ≥ 14 residues  
 - Export the final datasets in both `.tsv` and `.fasta` formats  
   
- > The final number of results in the positive dataset was: **2,938**
+ > The final number of results in the positive dataset was: **2,960**
 ### Data Preparation
 **Objective:** remove sequence redundancy and split the curated UniProtKB datasets into training, validation, and test sets.
 
@@ -72,7 +74,11 @@ This step is implemented in `scripts/data_preparation.py` and operates on the `.
     - `positive_filtered.tsv`, `negative_filtered.tsv` in `data/data_preparation/`.
 
 - **Train / test / validation splitting:**
-  - `train_test_validation_split` splits each non‑redundant dataset as follows:
+  - Because redundancy reduction (above) is run on the **complete** dataset *before* any
+    splitting, no homologous pair can leak between the training and test sets.
+  - `train_test_validation_split` first **shuffles each non‑redundant dataset with a fixed
+    random seed** (so the split is reproducible and not biased by download/cluster order),
+    then splits it:
     - **80%** of sequences → training set,
     - **20%** of sequences → test set.
   - A `Group` column is added to the training set:
@@ -165,7 +171,7 @@ This step is implemented in `scripts/pswm.py` and relies on `train.tsv` and `tes
   - The resulting matrix is stored as `matrix.npz` (and `matrix_cv_*.npz` for cross‑validation runs) in `data/pswm/`.
 
 - **Scoring sequences with the PSWM:**
-  - `compute_score` slides a 15‑residue window across `Frag_90` (N‑terminal fragment) and:
+  - `compute_score` slides a window of length `config["pswm_window"]` (default 15) across `Frag_90` (N‑terminal fragment) and:
     - sums the PSWM scores at each position,
     - returns the **maximum** window score as the sequence score.
 
@@ -191,7 +197,8 @@ This step is implemented in `scripts/pswm.py` and relies on `train.tsv` and `tes
     - `PSWM_cv_*.pdf`, `threshold_cv_*.pdf`.
 
 - **Final testing:**
-  - The PSWM and threshold from the **best F1** cross‑validation iteration are selected.
+  - The PSWM **and** its threshold from the **same best‑F1** cross‑validation fold are selected
+    together (they always come from the same fold).
   - These are applied to `test.tsv`, and the results are saved as:
     - `test_df_w_prediction.tsv` — predictions with full metadata,
     - `test_df_metrics.tsv` — final metrics on the independent test set,
@@ -245,6 +252,28 @@ The SVM pipeline is implemented in `scripts/svm.py` and uses `train.tsv` and `te
 
 This step yields the SVM‑based predictor that is compared to the von‑Heijne PSWM method.
 
+### FFNN (Feed-Forward Neural Network)
+**Objective:** train a feed‑forward neural network on the same 39 features as the SVM, providing
+a non‑linear model for the Advanced comparison.
+
+The FFNN pipeline is implemented in `scripts/ffnn.py` and reuses `extract_features` from
+`scripts/svm.py`, so it consumes exactly the same feature representation as the SVM.
+
+- **Architecture search and validation:**
+  - `build_mlp` wraps a `StandardScaler` and a `MLPClassifier` (ReLU, Adam).
+  - A small grid over one/two hidden layers is evaluated with the same five `Group` folds, and the
+    configuration with the highest mean validation **MCC** is selected.
+- **Class‑imbalance handling:**
+  - `oversample_minority` resamples the minority (positive) class up to the majority count, with a
+    fixed seed, on each training fold.
+  - `tune_threshold` selects the decision threshold maximising MCC on the pooled **out‑of‑fold**
+    predictions, so the test set is never used for threshold selection.
+- **Outputs (in `data/ffnn/`):**
+  - `cv_metrics.tsv` — per‑fold validation metrics of the selected architecture,
+  - `training_curves.pdf` — per‑fold training loss,
+  - `model.pkl.gz` — the trained pipeline together with its threshold and architecture,
+  - `test_df_w_prediction.tsv`, `test_df_metrics.tsv`, `confusion_matrix.pdf` — benchmarking results.
+
 ### Results Analysis
 **Objective:** perform a comparative, mechanistic analysis of the PSWM and SVM predictions, with a focus on transmembrane (TM) proteins and SP sequence motifs.
 
@@ -256,11 +285,13 @@ This step is implemented in `scripts/results_analysis.py` and uses:
 
 The script focuses on two main analyses:
 
-- **Fraction of TM proteins among false positives:**
-  - `extract_fp_df` and `assign_tm` identify **false positives (FP)** (Prediction = 1, Class = 0) for both methods.
-  - `get_tm_fraction` merges FPs with the negative dataset to retrieve the `TM` boolean flag.
-  - It then computes the fraction of FP sequences that contain a **predicted or annotated transmembrane helix**:
-    - This allows assessing whether each method tends to confuse TM helices with signal peptides.
+- **False positives and their transmembrane enrichment:**
+  - `fp_summary_row` identifies the **false positives (FP)** (Prediction = 1, Class = 0) of each
+    method, merges them with the negative dataset's `TM` flag, and reports, per model: the FP and FN
+    counts, the fraction of FPs that are transmembrane, and the enrichment of that fraction over the
+    negative-set TM base rate.
+  - The summary is written to `data/results_analysis/fp_tm_summary.tsv`, quantifying whether each
+    method tends to confuse TM helices with signal peptides.
 
 - **Sequence logos of PSWM false negatives vs. training positives:**
   - `extract_fn_df` extracts **false negatives (FN)** from PSWM predictions (Prediction = 0, Class = 1) along with their `SP_15` windows.
@@ -275,7 +306,7 @@ Together, these analyses provide an overview of possible error reasons.
 ### Conda
 1.Clone the repository
 ```shell
-git clone
+git clone https://github.com/KinitaL/SP_predictors_evaluation.git
 ```
 2. Create an environment
 ```shell
@@ -319,6 +350,10 @@ python3 -m scripts.pswm
 ### SVM (Support Vector Machine)
 ```shell
 python3 -m scripts.svm
+```
+### FFNN (Feed-Forward Neural Network)
+```shell
+python3 -m scripts.ffnn
 ```
 ### Analysis of the results
 ```shell
